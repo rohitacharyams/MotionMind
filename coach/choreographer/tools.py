@@ -656,7 +656,7 @@ class CoachState:
         # v84: Hinglish is the default coach language (user request).
         # Overridden by ?language= query param or a set_language WS msg.
         self.coach_language: str = 'hinglish'
-        # Set by server.py at WS-accept time from the studio-Os JWT.
+        # Set by server.py at WS-accept time from the the host app JWT.
         # When the caller is anonymous these stay at the defaults.
         self.user_id: Optional[str] = None
         self.user_name: Optional[str] = None

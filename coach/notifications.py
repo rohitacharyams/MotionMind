@@ -23,7 +23,7 @@ ENV
     ``python -m coach.notifications keygen`` to generate a pair.
 ``VAPID_CLAIM_EMAIL``
     Contact email injected as the JWT ``sub`` (default
-    ``mailto:hello@studioos.fit``).
+    ``mailto:hello@example.com``).
 ``AZURE_NOTIFICATION_HUB_CONNECTION``
     Connection string (DefaultFullSharedAccessSignature) for the hub.
 ``AZURE_NOTIFICATION_HUB_NAME``

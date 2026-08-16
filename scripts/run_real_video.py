@@ -307,7 +307,7 @@ def main():
                 bg_preset=rc["bg"],
                 output_path=out_path,
                 fps=fps,
-                watermark="@studioOs",
+                watermark="@MotionMind",
                 motion_trail=(rc["style"] == "neon"),
             )
             reel_time = time.time() - t0

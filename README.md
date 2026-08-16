@@ -1,5 +1,16 @@
 # MotionMind
 
+<p align="center">
+  <img src=".github/banner.png" alt="MotionMind — any video into 3D avatar motion an AI understands, teaches and remixes" width="100%">
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/python-3.12-blue.svg" alt="Python 3.12">
+  <img src="https://img.shields.io/badge/three.js-avatar-black.svg" alt="three.js">
+  <img src="https://img.shields.io/badge/SMPL-motion-purple.svg" alt="SMPL">
+</p>
+
 **Teach an AI avatar to understand and perform any human movement — from a single video.**
 
 MotionMind is an open-source pipeline that takes an ordinary video of a person
@@ -12,6 +23,17 @@ can **talk to in real time** (Gemini Live) to learn the movement yourself.
 > motion** — joint rotations, SMPL params, BVH — so the avatar is fully
 > deterministic and you own every frame. Diffusion video makes pretty pixels you
 > can't control; MotionMind makes motion you can.
+
+## Demo
+
+<p align="center">
+  <img src=".github/demo.gif" alt="MotionMind neon skeleton demo — a wholebody dancer rendered from motion data" width="480">
+</p>
+
+<p align="center"><em>The no-GPU quick demo (<code>python scripts/demo.py --style neon --trail</code>) —
+a 133-keypoint wholebody dancer with motion trails, rendered straight from motion
+data. Point the same pipeline at a real video to drive a full VRM avatar in the
+browser runtime.</em></p>
 
 ```
    video  ──►  extract SMPL  ──►  retarget to avatar  ──►  play in 3D

@@ -136,4 +136,4 @@ cloning.
 This is a research/pipeline release. The consumer product's growth/ops layer
 (analytics, email outreach, billing, cloud deploy scripts, SEO) is **not**
 included. A few optional integration hooks remain (e.g. an external identity
-backend via `STUDIOOS_API`); they are disabled by default. See [SECURITY.md](SECURITY.md).
+backend via `AUTH_BACKEND_URL`); they are disabled by default. See [SECURITY.md](SECURITY.md).

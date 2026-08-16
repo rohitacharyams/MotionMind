@@ -100,7 +100,7 @@ def set_learned_steps(clip_id: str, steps: List[Dict[str, Any]],
     clip's meta sidecar so ``break_down`` teaches THOSE named steps (with the
     free/paid gate baked in via each step's ``locked`` flag).
 
-    Called server-to-server by studio-Os after its GPT-4o segmentation. Merges
+    Called server-to-server by the host app after its GPT-4o segmentation. Merges
     into any existing meta and refreshes the module cache. ``steps`` items are
     ``{index, label, cue, start_s, end_s, locked?}``.
     """

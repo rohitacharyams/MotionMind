@@ -358,7 +358,7 @@ class DanceMotionPipeline:
             output: Output file path.
             mix_method: How to combine motions (sequential, interleave).
             audio_path: Audio track to mux in.
-            watermark: Watermark text (e.g. "@studioOs").
+            watermark: Watermark text (e.g. "@MotionMind").
             motion_trail: Enable motion trails.
             format: Reel format (instagram_reel, tiktok, youtube_short, instagram_square).
 

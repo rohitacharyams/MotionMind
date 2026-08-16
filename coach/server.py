@@ -83,19 +83,6 @@ except Exception as _e:                                    # noqa: BLE001
     print(f'[appinsights] not enabled: {_e!r}')
 
 
-@app.middleware('http')
-async def _www_to_apex(request: 'Request', call_next):
-    """301 www.dancecoach.fit -> dancecoach.fit (apex is canonical). Keeps SEO
-    authority on ONE hostname and avoids duplicate-content. Only fires for the
-    www host; everything else passes through untouched."""
-    host = (request.headers.get('host') or '').lower()
-    if host.startswith('www.dancecoach.fit'):
-        from fastapi.responses import RedirectResponse as _RR
-        url = request.url.replace(netloc='dancecoach.fit', scheme='https')
-        return _RR(str(url), status_code=301)
-    return await call_next(request)
-
-
 @app.on_event('startup')
 async def _warm_caches() -> None:
     """v33c: pre-load the heavy modules on container startup so the
@@ -152,46 +139,6 @@ if AUDIO_DIR.exists():
     app.mount('/audio', StaticFiles(directory=str(AUDIO_DIR)), name='audio')
 
 
-# ─── /mockInterviews — AI Mock Interviewer vertical (same app service) ──
-# The interview product is a self-contained FastAPI app (interview/server.py)
-# reusing the SAME Gemini Live S2S stack. We mount it here so studioos.fit
-# can expose it at /mockInterviews on the SAME container as /dance — no new
-# App Service. The mount is GUARDED: if the interview package isn't present
-# in the image (older builds) or fails to import, the dance app is unaffected.
-#
-# nginx (studioos.fit) must forward the WHOLE prefix INCLUDING *.js — use
-#   location ^~ /mockInterviews/ { proxy_pass http://<this-app>; <ws headers> }
-# The ^~ is essential: it stops the bare-*.js regex hijack from stealing
-# /mockInterviews/static/*.js (the interview frontend loads real .js files).
-# ─── /mockInterviews — MOVED to its own app + domain (praxari.com) ──────
-# The AI mock-interview product used to be MOUNTED here on the same container.
-# It now lives on a fully separate app (praxari-app) at its own domain,
-# https://praxari.com — so a coach deploy can never affect it and vice-versa.
-# We keep the old studioos.fit/mockInterviews/* URLs working by permanently
-# (301) redirecting them to the canonical praxari.com home, so shared links,
-# bookmarks and search results don't break. No interview code runs here anymore.
-MOCK_PREFIX = os.getenv('MOCK_PREFIX', '/mockInterviews')
-PRAXARI_URL = os.getenv('PRAXARI_URL', 'https://praxari.com').rstrip('/')
-
-
-async def _praxari_redirect(request: 'Request', subpath: str = ''):
-    from fastapi.responses import RedirectResponse
-    dest = PRAXARI_URL + ('/' + subpath if subpath else '/')
-    q = request.url.query
-    if q:
-        dest += '?' + q
-    return RedirectResponse(dest, status_code=301)
-
-
-from fastapi import Request  # noqa: E402  (local import; keeps coach imports intact)
-for _pfx in {MOCK_PREFIX, MOCK_PREFIX.lower()}:
-    app.add_api_route(_pfx, _praxari_redirect, methods=['GET', 'HEAD'],
-                      include_in_schema=False)
-    app.add_api_route(_pfx + '/{subpath:path}', _praxari_redirect,
-                      methods=['GET', 'HEAD'], include_in_schema=False)
-print(f'[redirect] {MOCK_PREFIX}/* -> {PRAXARI_URL} (301)')
-
-
 @app.get('/')
 def index():
     f = STATIC / 'coach.html'
@@ -210,7 +157,7 @@ def index():
 
 # ─── Legal / compliance pages (Google Play REQUIRES reachable URLs) ────
 # These are plain static HTML in coach/static/, but Play declares the clean
-# extension-less URLs https://studioos.fit/dance/privacy and
+# extension-less URLs https://example.com/privacy and
 # /dance/delete-account. The external nginx forwards /dance/<anything> to
 # this app (it only special-cases *.js and the /static /asset /api /healthz
 # prefixes), so a bare /privacy hits FastAPI — which previously had NO route
@@ -245,9 +192,9 @@ def terms_page():
     return _serve_static_page('terms.html')
 
 
-# ─── SEO landing pages (dancecoach.fit) ────────────────────────────────
+# ─── SEO landing pages (example.com) ────────────────────────────────
 # Static, crawlable HTML that ranks for high-intent queries and funnels into
-# the coach. Canonicals point at dancecoach.fit. Served extension-less so the
+# the coach. Canonicals point at example.com. Served extension-less so the
 # URLs are clean + shareable.
 @app.get('/ai-dance-coach', include_in_schema=False)
 def seo_ai_dance_coach():
@@ -398,7 +345,7 @@ def service_worker_root():
                                  'Cache-Control': 'no-cache'})
 
 
-# Workaround: the studioos.fit nginx reverse proxy intercepts ALL `*.js` URLs
+# Workaround: the example.com nginx reverse proxy intercepts ALL `*.js` URLs
 # and serves them from its own filesystem (not forwarded to this container).
 # We expose JS modules under an extension-less path so nginx forwards them.
 @app.get('/m/{name}')
@@ -503,8 +450,8 @@ def get_characters():
     return json.loads(REGISTRY.read_text(encoding='utf-8'))
 
 
-# ── Internal machine-to-machine API (studio-Os learn pipeline) ─────────────
-# These are called server-to-server by the studio-Os backend after RunPod
+# ── Internal machine-to-machine API (the host app learn pipeline) ─────────────
+# These are called server-to-server by the the host app backend after RunPod
 # returns raw SMPL. They are guarded by a shared secret (DAN_INTERNAL_TOKEN),
 # NOT a user JWT. If the token is unset the endpoints are disabled (503) so a
 # misconfigured box never exposes the retarget/push surface publicly.
@@ -533,7 +480,7 @@ async def learn_build(req: BuildClipRequest,
     """Retarget a RunPod-produced SMPL .pkl into a playable coach clip.
 
     Runs the EXISTING build_clip.py chain (export → sign-fix → physics gate →
-    install into motion_cache) and returns the metadata studio-Os needs to mark
+    install into motion_cache) and returns the metadata the host app needs to mark
     a LearnJob READY. This is the always-on-dan-box half of the pipeline."""
     _require_internal(x_internal_token)
 
@@ -600,7 +547,7 @@ async def learn_steps(req: LearnStepsRequest,
                       x_internal_token: str = Header(default='')):
     """Store a learned choreography's step breakdown so the coach's break_down
     tool teaches those named steps with the free/paid gate baked in. Called by
-    studio-Os after its vision-model segmentation (and again on upgrade)."""
+    the host app after its vision-model segmentation (and again on upgrade)."""
     _require_internal(x_internal_token)
     name = ''.join(c for c in req.motion_id if c.isalnum() or c in ('_', '-'))
     if not name:
@@ -621,7 +568,7 @@ async def learn_steps(req: LearnStepsRequest,
 async def internal_notify_push(req: PushRequest,
                                x_internal_token: str = Header(default='')):
     """Fire a push notification (web-push / FCM) to a user's registered devices.
-    Called by studio-Os when a learn job is READY. Best-effort; never raises."""
+    Called by the host app when a learn job is READY. Best-effort; never raises."""
     _require_internal(x_internal_token)
     try:
         subs = _journey_store.list_push_subscriptions(req.user_id)
@@ -655,7 +602,7 @@ async def get_me_progress(authorization: str = Header(default='')):
         token = authorization[7:].strip()
     if not token:
         return {'user': None, 'progress': _default_progress()}
-    u = await _fetch_studioos_user(token)
+    u = await _fetch_external_user(token)
     if not u:
         return {'user': None, 'progress': _default_progress()}
     user_id = str(u.get('id') or u.get('user_id') or '')
@@ -692,13 +639,13 @@ async def save_session(body: _SaveSessionBody,
     """v220: persist a just-finished session to the now-signed-in user's
     journey. Called right after a delighted (👍) anonymous user creates an
     account from the end-of-session card, so the streak/minutes they just
-    earned aren't lost. Auth via bearer token → studio-Os user. Best-effort."""
+    earned aren't lost. Auth via bearer token → the host app user. Best-effort."""
     token = ''
     if authorization.lower().startswith('bearer '):
         token = authorization[7:].strip()
     if not token:
         return JSONResponse(status_code=401, content={'saved': False, 'error': 'no_token'})
-    u = await _fetch_studioos_user(token)
+    u = await _fetch_external_user(token)
     if not u:
         return JSONResponse(status_code=401, content={'saved': False, 'error': 'invalid_token'})
     user_id = str(u.get('id') or u.get('user_id') or '')
@@ -717,15 +664,15 @@ async def save_session(body: _SaveSessionBody,
 
 
 # ─── v227: "Upload your own video to learn" — same-origin proxy ────────
-# The full learn-from-video pipeline already lives on studio-Os
+# The full learn-from-video pipeline already lives on the host app
 # (POST /api/learn/submit: stores the video, creates a LearnJob, dispatches to
 # the GPU pipeline or emails the owner, and later emails the user "your dance
-# is ready"). But the coach is served cross-origin (dancecoach.fit) from that
+# is ready"). But the coach is served cross-origin (example.com) from that
 # API, so the browser can't POST a big multipart video there directly without
 # CORS/pre-flight pain. This proxy accepts the upload SAME-ORIGIN
-# (dancecoach.fit/api/learn/upload) and forwards it to studio-Os with the
+# (example.com/api/learn/upload) and forwards it to the host app with the
 # user's bearer token — mirroring the /api/track proxy. Auth is enforced by
-# studio-Os (@jwt_required on /submit); we require a token here too so an
+# the host app (@jwt_required on /submit); we require a token here too so an
 # anonymous user is told to sign in BEFORE we buffer a large file.
 @app.post('/api/learn/upload')
 async def learn_upload(video: UploadFile = File(...),
@@ -754,7 +701,7 @@ async def learn_upload(video: UploadFile = File(...),
         form = {'rights_confirmed': '1', 'title': (title or '')[:120]}
         async with httpx.AsyncClient(timeout=180.0) as cx:
             r = await cx.post(
-                f'{STUDIOOS_API}/api/learn/submit',
+                f'{AUTH_BACKEND_URL}/api/learn/submit',
                 headers={'Authorization': f'Bearer {token}'},
                 files=files, data=form)
         try:
@@ -802,7 +749,7 @@ async def get_me_lessons(authorization: str = Header(default='')):
         token = authorization[7:].strip()
     if not token:
         return {'lessons': {}}
-    u = await _fetch_studioos_user(token)
+    u = await _fetch_external_user(token)
     if not u:
         return {'lessons': {}}
     user_id = str(u.get('id') or u.get('user_id') or '')
@@ -839,7 +786,7 @@ async def post_me_lessons(body: LessonProgress,
         token = authorization[7:].strip()
     if not token:
         return {'ok': False, 'reason': 'sign_in_required'}
-    u = await _fetch_studioos_user(token)
+    u = await _fetch_external_user(token)
     if not u:
         return {'ok': False, 'reason': 'sign_in_required'}
     user_id = str(u.get('id') or u.get('user_id') or '')
@@ -910,7 +857,7 @@ async def post_entry_event(ev: EntryEvent, authorization: str = Header(default='
     """v179: records WHERE a fresh /dance page load came from (referrer +
     UTM). Nothing previously captured this at all — there was no way to
     tell how much of the (tiny) traffic reaching this app came from the
-    studioOS homepage vs direct/search/Android. Fire-and-forget from the
+    the host app homepage vs direct/search/Android. Fire-and-forget from the
     client; never raises, never blocks page load.
 
     v202: our own deploy/verification hits are dropped (not logged) so the
@@ -922,7 +869,7 @@ async def post_entry_event(ev: EntryEvent, authorization: str = Header(default='
     if authorization.lower().startswith('bearer '):
         token = authorization[7:].strip()
     if token:
-        u = await _fetch_studioos_user(token)
+        u = await _fetch_external_user(token)
         if u:
             user_id = str(u.get('id') or u.get('user_id') or '')
     try:
@@ -988,7 +935,7 @@ async def _user_id_from_auth(authorization: str) -> str:
         token = authorization[7:].strip()
     if not token:
         return ''
-    u = await _fetch_studioos_user(token)
+    u = await _fetch_external_user(token)
     if not u:
         return ''
     return str(u.get('id') or u.get('user_id') or '')
@@ -1143,14 +1090,14 @@ def get_vrm(name: str):
 
 
 # ─── inline auth (login / signup popup) ───────────────────────────────
-# The dance coach used to bounce users to studioos.fit/login and rely on
+# The dance coach used to bounce users to example.com/login and rely on
 # them navigating back — which broke (token landed on a different page /
 # the WS never re-read it, so the user looped through "please sign in").
-# These thin server-side proxies forward to the studio-Os auth API so the
+# These thin server-side proxies forward to the the host app auth API so the
 # browser can sign in / sign up from an in-page popup with NO cross-origin
 # CORS and NO full-page redirect. We return the upstream JSON + status so
 # the browser can grab {access_token} and store it exactly like the main
-# studio-Os SPA does.
+# the host app SPA does.
 class _AuthLoginBody(BaseModel):
     email: str
     password: str
@@ -1172,13 +1119,13 @@ def _upstream_json(r: 'httpx.Response') -> Any:
 
 @app.post('/api/track', include_in_schema=False)
 async def track_proxy(request: 'Request'):
-    """Forward coach telemetry to the studio-Os backend.
+    """Forward coach telemetry to the the host app backend.
 
-    On studioos.fit/dance the external nginx proxied /api/track to
-    api.studioos.fit. On the dancecoach.fit apex there is NO nginx, so the
+    On example.com the external nginx proxied /api/track to
+    api.example.com. On the example.com apex there is NO nginx, so the
     browser's POST /api/track hit FastAPI directly and 404'd — losing all
     picker/onboarding/funnel telemetry (dance_style_viewed, dance_ready, etc.).
-    This route restores it by forwarding the raw JSON body to the studio-Os
+    This route restores it by forwarding the raw JSON body to the the host app
     /api/track endpoint. Fire-and-forget shape: always returns 204 so the
     beacon never surfaces an error in the console.
     """
@@ -1188,7 +1135,7 @@ async def track_proxy(request: 'Request'):
         raw = b''
     try:
         async with httpx.AsyncClient(timeout=6.0) as cx:
-            await cx.post(f'{STUDIOOS_API}/api/track', content=raw,
+            await cx.post(f'{AUTH_BACKEND_URL}/api/track', content=raw,
                           headers={'Content-Type': 'application/json'})
     except Exception:
         pass  # telemetry is best-effort; never block or error the client
@@ -1197,12 +1144,12 @@ async def track_proxy(request: 'Request'):
 
 @app.post('/api/auth/login')
 async def auth_login(body: _AuthLoginBody):
-    """Proxy a login to studio-Os. Returns {access_token, refresh_token,
+    """Proxy a login to the host app. Returns {access_token, refresh_token,
     user} on success (200) or the upstream error status."""
     try:
         async with httpx.AsyncClient(timeout=12.0) as cx:
             r = await cx.post(
-                f'{STUDIOOS_API}/api/auth/login',
+                f'{AUTH_BACKEND_URL}/api/auth/login',
                 json={'email': body.email.strip().lower(),
                       'password': body.password},
             )
@@ -1215,7 +1162,7 @@ async def auth_login(body: _AuthLoginBody):
 
 @app.post('/api/auth/register')
 async def auth_register(body: _AuthRegisterBody):
-    """Proxy a dancer sign-up to studio-Os. Creates a customer account and
+    """Proxy a dancer sign-up to the host app. Creates a customer account and
     returns the same {access_token, ...} shape as login on success."""
     payload: Dict[str, Any] = {
         'email': body.email.strip().lower(),
@@ -1229,7 +1176,7 @@ async def auth_register(body: _AuthRegisterBody):
         payload['phone'] = body.phone.strip()
     try:
         async with httpx.AsyncClient(timeout=12.0) as cx:
-            r = await cx.post(f'{STUDIOOS_API}/api/auth/register',
+            r = await cx.post(f'{AUTH_BACKEND_URL}/api/auth/register',
                               json=payload)
     except Exception as e:                                       # noqa: BLE001
         return JSONResponse(status_code=502,
@@ -1244,18 +1191,18 @@ class _AuthRefreshBody(BaseModel):
 
 @app.post('/api/auth/refresh')
 async def auth_refresh(body: _AuthRefreshBody):
-    """v185: proxy a refresh_token exchange to studio-Os. coach.js has
+    """v185: proxy a refresh_token exchange to the host app. coach.js has
     been STORING refresh_token since login/register but never had
     anywhere to send it -- an expired access_token just silently
     degraded the session to anonymous with no re-login prompt. Mirrors
     the login/register proxy shape: {access_token, refresh_token, user}
     on success, or the upstream error status/body passed straight
     through so the client can fall back to a clean sign-in if this
-    endpoint doesn't match studio-Os's actual contract."""
+    endpoint doesn't match the host app's actual contract."""
     try:
         async with httpx.AsyncClient(timeout=12.0) as cx:
             r = await cx.post(
-                f'{STUDIOOS_API}/api/auth/refresh',
+                f'{AUTH_BACKEND_URL}/api/auth/refresh',
                 json={'refresh_token': body.refresh_token},
             )
     except Exception as e:                                       # noqa: BLE001
@@ -1588,7 +1535,7 @@ async def ws_agent(ws: WebSocket):
     Voice out: the browser runs Azure TTS on the assistant text.
 
     Auth: the WebSocket URL may carry ``?token=<JWT>``. When present
-    we call back to studio-Os to identify the user. Missing / invalid
+    we call back to the host app to identify the user. Missing / invalid
     tokens are NOT a 401 — the session just runs in anonymous mode
     (matching the static viewer's behaviour).
     """
@@ -1600,7 +1547,7 @@ async def ws_agent(ws: WebSocket):
     history: List[Dict[str, Any]] = []
     state = CoachState()    # PER-WS state — isolates Alice from Bob.
 
-    # Optional studio-Os auth lookup.
+    # Optional the host app auth lookup.
     token = ws.query_params.get('token')
     if token:
         await _identify_user(state, token)
@@ -2108,35 +2055,35 @@ async def ws_feedback(ws: WebSocket):
             pass
 
 
-# ─── studio-Os identity lookup ────────────────────────────────────────
+# ─── the host app identity lookup ────────────────────────────────────────
 # Optional external identity backend. We delegate JWT verification to an
 # external service by calling its /api/me endpoint with the Bearer token.
 # Unset by default → the coach runs fully anonymous / standalone. Set the
-# STUDIOOS_API (or your own) env var to enable authenticated features.
-STUDIOOS_API = os.getenv('STUDIOOS_API', '').rstrip('/')
+# AUTH_BACKEND_URL (or your own) env var to enable authenticated features.
+AUTH_BACKEND_URL = os.getenv('AUTH_BACKEND_URL', '').rstrip('/')
 
 
-async def _fetch_studioos_user(token: str) -> Optional[Dict[str, Any]]:
-    """Call studio-Os /api/me with the given bearer token. Returns the
+async def _fetch_external_user(token: str) -> Optional[Dict[str, Any]]:
+    """Call the host app /api/me with the given bearer token. Returns the
     user payload dict, or None on any failure / non-200 (never raises)."""
     if not token:
         return None
     try:
         async with httpx.AsyncClient(timeout=4.0) as cx:
             r = await cx.get(
-                f'{STUDIOOS_API}/api/me',
+                f'{AUTH_BACKEND_URL}/api/me',
                 headers={'Authorization': f'Bearer {token}'},
             )
         if r.status_code != 200:
             return None
         return r.json()
     except Exception:
-        # studio-Os reachability issues should never block the session.
+        # the host app reachability issues should never block the session.
         return None
 
 
 async def _identify_user(state, token: str) -> None:
-    u = await _fetch_studioos_user(token)
+    u = await _fetch_external_user(token)
     if not u:
         return
     state.user_id        = str(u.get('id') or u.get('user_id') or '')

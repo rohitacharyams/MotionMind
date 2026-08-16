@@ -8,13 +8,13 @@ pipeline, same output shape, same webhook contract — but on Modal, which:
 Architecture (mirrors the RunPod async + webhook flow so the Flask side is
 unchanged):
 
-    studio-Os  ──POST /submit──▶  submit() web endpoint (CPU, instant)
+    the host app  ──POST /submit──▶  submit() web endpoint (CPU, instant)
                                        │  .spawn()
                                        ▼
                               _run_and_callback()  (GPU, GVHMR inference)
                                        │  when done
                                        ▼
-                     POST {status, output} ──▶  studio-Os /api/learn/webhook/runpod
+                     POST {status, output} ──▶  the host app /api/learn/webhook/runpod
 
 The `output` dict is byte-identical to the RunPod worker's, so
 `finalize_from_worker()` needs no changes.
@@ -32,7 +32,7 @@ ONE-TIME SETUP (run locally, needs a free Modal account):
 
     modal deploy modal_app.py            # prints the submit endpoint URL
 
-Then set on studio-Os App Service:
+Then set on the host app App Service:
     GPU_PROVIDER=modal
     MODAL_ENDPOINT_URL=<the submit URL modal deploy printed>
     MODAL_SUBMIT_TOKEN=<any long random string; also set below as a Modal secret>
@@ -86,7 +86,7 @@ def _process(inp: dict) -> dict:
     retries=1,
 )
 def _run_and_callback(inp: dict, webhook_url: str) -> dict:
-    """Run GVHMR on the GPU, then POST the result to the studio-Os webhook in
+    """Run GVHMR on the GPU, then POST the result to the the host app webhook in
     the exact shape the RunPod webhook handler expects."""
     import requests
     try:

@@ -8,7 +8,7 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { VRMLoaderPlugin, VRMUtils } from '@pixiv/three-vrm';
 
 // Sibling modules — relative paths so the bundle works behind any
-// reverse-proxy prefix (e.g. studioos.fit/dance/static/...).
+// reverse-proxy prefix (e.g. example.com/static/...).
 import { MotionPlayer } from './motion_player';
 import { AzureVoice }   from './azure_voice';
 import { AvatarLife }   from './avatar_life';
@@ -28,7 +28,7 @@ try {
 } catch (e) {}
 
 // ── Auth token bridge ────────────────────────────────────────────────
-// The Studio OS CUSTOMER app stores its JWT under 'customer_token', but this
+// The the host app CUSTOMER app stores its JWT under 'customer_token', but this
 // coach historically reads 'token'. When the coach is opened from the app
 // (e.g. /app/coach?job=...) the user is already signed in as a customer, so
 // mirror customer_token -> token (and keep it fresh) so the coach doesn't
@@ -187,7 +187,7 @@ function setStatus(s) {
 }
 
 // v214: lightweight picker/onboarding telemetry → /api/track (nginx →
-// api.studioos.fit). Whitelisted events only. Best-effort, silent on fail.
+// api.example.com). Whitelisted events only. Best-effort, silent on fail.
 function _coachTrack(event, props) {
   try {
     // v224 CRITICAL FIX: mint + persist a stable anonymous client id here if
@@ -196,7 +196,7 @@ function _coachTrack(event, props) {
     // anonymous visitor fired every early funnel event (dance_ready,
     // dance_session_started, dance_voice_started…) with cid='' → the backend
     // got visitor_id=None → and SILENTLY DROPPED them as suspected bots. That
-    // made dancecoach.fit's anonymous traffic (the majority) invisible in our
+    // made example.com's anonymous traffic (the majority) invisible in our
     // funnel while Clarity still recorded the sessions. Minting the id here
     // means every coach event now carries a visitor id and gets persisted.
     let cid = '';
@@ -547,7 +547,7 @@ scene.add(shadowCatcher);
 
 // ─── Dance.AI studio stage (mirror + brand sign + floor) ──────────────
 // The studio backdrop GLB lives at /asset/stage (extension-less so the
-// studioos.fit nginx proxy never intercepts it). Loaded asynchronously
+// example.com nginx proxy never intercepts it). Loaded asynchronously
 // so a slow CDN never blocks the avatar render. If the load fails we
 // silently fall back to a plain disc floor.
 const stageLoader = new GLTFLoader();
@@ -1054,7 +1054,7 @@ async function runBreakdown(evt) {
   const nFrames = (player.data && (player.data.n_frames || player.data.frames)) || 0;
   // Mirror the steps into the universal side rail so the learner can see the
   // whole plan and jump around — in every surface the coach runs (standalone
-  // page, Coach tab). Embedded StudioOS lessons use the parent's own rail.
+  // page, Coach tab). Embedded the host app lessons use the parent's own rail.
   try { renderCoachRail(stages, evt.title || evt.style || ''); } catch (e) {}
   // v223 SAFETY NET — "said it's moving but it isn't". break_down is supposed
   // to have already loaded+started the clip (via pick_and_play), but if that
@@ -1139,7 +1139,7 @@ async function runBreakdown(evt) {
 // like "teach me this"), we mirror those steps into a clickable right-side
 // pane. Clicking a step cancels the auto-sequence and re-teaches JUST that
 // move (windowed segment on loop + narrated cue), so the learner controls
-// the pace. Hidden in embedded StudioOS lessons — the parent owns that rail.
+// the pace. Hidden in embedded the host app lessons — the parent owns that rail.
 let _railStages = [];
 let _railActive = -1;
 // 'teach' rails are clickable (jump to a move); 'session' rails mirror the
@@ -1407,7 +1407,7 @@ async function _railJump(i) {
   } else { bind(); }
 })();
 
-// ─── StudioOS embedded choreography lesson bridge ──────────────────
+// ─── the host app embedded choreography lesson bridge ──────────────────
 // The parent lesson owns navigation and teaching notes. The coach keeps the
 // avatar loaded and accepts exact segment commands without iframe reloads.
 const _embeddedLesson = (() => {
@@ -1496,7 +1496,7 @@ async function _teachEmbeddedStep(step, speed) {
 window.addEventListener('message', (evt) => {
   if (!_lessonParentAllowed(evt)) return;
   const msg = evt.data || {};
-  if (msg.source !== 'studioos.learn') return;
+  if (msg.source !== 'host.learn') return;
   if (msg.type === 'lesson.ping') {
     if (player && player.data) _notifyLessonParent('lesson.ready');
   } else if (msg.type === 'lesson.step') {
@@ -2046,15 +2046,15 @@ tick();
 // ─── bootstrap: limits + characters + healthz ─────────────────────────
 async function bootstrap() {
   // v224: ENTRY beacon. `dance_visited` (top of the coach funnel) is injected
-  // by studioos.fit's NGINX sub_filter on /dance loads — but dancecoach.fit has
+  // by example.com's NGINX sub_filter on /dance loads — but example.com has
   // NO nginx, so a coach open there NEVER fired dance_visited. Result: our funnel
-  // was blind to dancecoach.fit's top-of-funnel (only Clarity saw those sessions).
-  // Fire it here, ONCE, on boot for nginx-less hosts (dancecoach.fit / localhost),
+  // was blind to example.com's top-of-funnel (only Clarity saw those sessions).
+  // Fire it here, ONCE, on boot for nginx-less hosts (example.com / localhost),
   // BEFORE any await so it registers even if the health/VRM load later fails.
-  // Skipped on *.studioos.fit where nginx already injects it (avoids double count).
+  // Skipped on *.example.com where nginx already injects it (avoids double count).
   try {
     const _host = (location.hostname || '').toLowerCase();
-    const _nginxless = _host.indexOf('studioos.fit') === -1;
+    const _nginxless = _host.indexOf('example.com') === -1;
     if (_nginxless && !window.__danceVisitedFired) {
       window.__danceVisitedFired = true;
       _coachTrack('dance_visited', { from: 'coach_boot', host: _host });
@@ -2366,7 +2366,7 @@ async function playCoachGreeting() {
 let ws = null;
 function connect() {
   const proto = location.protocol === 'https:' ? 'wss:' : 'ws:';
-  // If studio-Os dropped a JWT in localStorage (same pattern the
+  // If the host app dropped a JWT in localStorage (same pattern the
   // existing /dance viewer uses) attach it so the server can identify
   // the user. Anonymous sessions just omit the token.
   const params = new URLSearchParams();
@@ -3339,10 +3339,10 @@ function _stopS2S(restoreVoiceOn) {
 })();
 
 // ─── inline auth (login / signup popup) ──────────────────────────────
-// No more bouncing to studioos.fit/login and reloading — the user used
+// No more bouncing to example.com/login and reloading — the user used
 // to land back here without a usable token and loop forever. Instead we
 // open an in-page popup that posts to our own /api/auth/{login,register}
-// proxy (which forwards to studio-Os), stash the returned access_token in
+// proxy (which forwards to the host app), stash the returned access_token in
 // localStorage['token'], reconnect the WS with it, and resume whatever the
 // user was doing — all without leaving the page.
 
@@ -3355,7 +3355,7 @@ function _isSignedIn() {
 }
 
 // v185: refresh_token has been STORED on every login/register since this
-// modal was written, but nothing ever used it. When the studio-Os access
+// modal was written, but nothing ever used it. When the the host app access
 // token expired, _identify_user on the server just silently failed and
 // the session quietly ran anonymous for the rest of the visit — no error,
 // no re-login prompt, just a confusing loss of streak/history. This pair
@@ -3425,7 +3425,7 @@ async function _verifySessionOrPrompt() {
 setInterval(() => { try { _verifySessionOrPrompt(); } catch (e) {} }, 5 * 60 * 1000);
 
 function _applyAuthSuccess(data) {
-  // studio-Os returns { access_token, refresh_token, user }.
+  // the host app returns { access_token, refresh_token, user }.
   const tok = data && (data.access_token || data.token);
   if (!tok) return false;
   try {
@@ -4519,7 +4519,7 @@ $('signin')?.addEventListener('click', (e) => {
     } catch (e) {}
   };
   apply();
-  // If sign-in happens in another tab/window (studioos.fit/login),
+  // If sign-in happens in another tab/window (example.com/login),
   // the storage event fires here so we can flip the button label
   // without a full page reload.
   window.addEventListener('storage', (e) => {
@@ -5199,7 +5199,7 @@ $('video-input').addEventListener('change', async (ev) => {
 
 // ─── v227: UPLOAD A VIDEO TO LEARN ─────────────────────────────────────
 // A visible "➕" on the dock. The user uploads a short clip; we hand it to the
-// studio-Os learn pipeline (POST /api/learn/upload → /api/learn/submit) which
+// the host app learn pipeline (POST /api/learn/upload → /api/learn/submit) which
 // stores it, creates a job, emails the OWNER to process it, and later emails
 // the user "your dance is ready". GATED by sign-in with context carry: an
 // anonymous tap opens the sign-in modal and, on success, resumes the picker on
@@ -5663,7 +5663,7 @@ function restartConversation() {
 (function initStartScreen() {
   const scr = document.getElementById('start-screen');
   if (!scr) return;
-  // StudioOS renders its own lesson cockpit in embedded mode. Never initialize
+  // the host app renders its own lesson cockpit in embedded mode. Never initialize
   // the generic "What do you want to dance?" front door over that lesson.
   if (_embeddedLesson) {
     window.__frontDoorOpen = false;

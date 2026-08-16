@@ -22,17 +22,15 @@ filing a public issue for anything sensitive.
 
 This repo was extracted from a larger private product. Automated scans confirm no
 active third-party trackers or ad IDs remain (Clarity, Amplitude, AdSense, GA4 —
-all removed or env-gated to OFF). A few **non-secret** references to the original
-product's optional backend remain in comments and optional code paths:
+all removed or env-gated to OFF), and all original brand names / domains have been
+scrubbed from the code and comments.
 
-- `STUDIOOS_API` — an **optional** external identity backend. It is **empty by
+- `AUTH_BACKEND_URL` — an **optional** external identity backend. It is **empty by
   default**, so the coach runs fully standalone/anonymous. Set it only if you
   wire up your own `/api/me`-style auth service.
-- Residual `studioos.fit` / `dancecoach.fit` strings appear in code comments and
-  in optional auth/analytics/SEO plumbing inside `coach/server.py` and
-  `coach/static/coach.js`. These are **not secrets**. If you want a spotless
-  research-only repo, you may delete the optional auth/track/SEO routes and the
-  `customer_token` bridge before publishing.
+- A few optional integration code paths remain (an auth bridge, a `/api/track`
+  proxy). They are inert unless you configure `AUTH_BACKEND_URL`. These are **not
+  secrets** — feel free to delete them if you don't need external auth.
 
 To re-scan at any time:
 

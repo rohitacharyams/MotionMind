@@ -30,7 +30,7 @@
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="dns-prefetch" href="https://unpkg.com">
 <!-- v220: modulepreloads removed — the 3D libs now load either same-origin
-     (dancecoach.fit /static/vendor) or from unpkg via the dynamic importmap,
+     (example.com /static/vendor) or from unpkg via the dynamic importmap,
      so hard-coded jsdelivr preloads (which failed with SSL errors) are gone. -->
 <!-- v51: m/coach is NOT preloaded — it's injected dynamically after
      /healthz confirms the backend is serving (see health-gated loader
@@ -358,7 +358,7 @@
   #step-caption .sc-count { font-size: 12px; font-weight: 700; opacity: .9;
     text-transform: uppercase; letter-spacing: .06em; }
 
-  /* StudioOS owns navigation and teaching notes in an embedded choreography
+  /* the host app owns navigation and teaching notes in an embedded choreography
      lesson. Keep only the avatar, synced caption and camera-feedback surface. */
   html.lesson-embedded #topbar,
   html.lesson-embedded #hud,
@@ -378,7 +378,7 @@
     bottom: 22px;
     max-width: min(88vw, 560px);
   }
-  /* In an embedded StudioOS lesson the PARENT owns the step rail, so the
+  /* In an embedded the host app lesson the PARENT owns the step rail, so the
      coach's own rail + toggle stay hidden to avoid two competing panes. */
   html.lesson-embedded #coach-rail,
   html.lesson-embedded #coach-rail-toggle { display: none !important; }
@@ -2182,16 +2182,16 @@ window.__BUILD = 'ux28';
 // v220: DYNAMIC IMPORTMAP — jsdelivr.net was intermittently failing with
 // ERR_SSL_VERSION_OR_CIPHER_MISMATCH (some ISPs, esp. in India, block/throttle
 // it), which killed the three.js load → the avatar never rendered. Fix:
-//   • dancecoach.fit (apex, NO nginx): serve the 3D libs SAME-ORIGIN from
+//   • example.com (apex, NO nginx): serve the 3D libs SAME-ORIGIN from
 //     /static/vendor — immune to any CDN/ISP blocking. Bulletproof.
-//   • studioos.fit/dance (nginx intercepts *.js): use unpkg (Cloudflare),
+//   • example.com (nginx intercepts *.js): use unpkg (Cloudflare),
 //     which is far more reliable than jsdelivr, for three + addons.
 // Written via document.write so the importmap is parser-inserted BEFORE any
 // module script loads (the only reliable way to register an import map).
 (function () {
   var base = (window.APP_BASE || '');
   var host = location.hostname;
-  var selfHost = (host === 'dancecoach.fit' || host === 'www.dancecoach.fit' ||
+  var selfHost = (host === 'example.com' || host === 'example.com' ||
                   host === 'localhost' || host === '127.0.0.1');
   var map;
   if (selfHost) {
@@ -2226,7 +2226,7 @@ window.__BUILD = 'ux28';
 // v179: fire-and-forget entry-event beacon — records document.referrer +
 // any UTM params the very first moment this page loads, BEFORE anything
 // else runs. This is the only way to see where the (currently tiny)
-// trickle of visitors reaching /dance is coming from: the studioOS
+// trickle of visitors reaching /dance is coming from: the the host app
 // homepage, direct/bookmark, search, or the Android wrapper. Never
 // blocks rendering; uses sendBeacon so it survives the tab closing.
 (function () {
