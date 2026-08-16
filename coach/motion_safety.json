@@ -1,0 +1,6100 @@
+{
+  "limits": {
+    "hard_limit_rad": {
+      "4": 2.95,
+      "5": 2.95,
+      "18": 2.95,
+      "19": 2.95,
+      "12": 1.8,
+      "15": 1.8,
+      "20": 2.2,
+      "21": 2.2,
+      "7": 1.4,
+      "8": 1.4
+    },
+    "default_hard": 3.14,
+    "max_ang_speed": 80.0,
+    "max_ang_accel": 2500.0,
+    "max_pelvis_xy_v": 8.0,
+    "max_pelvis_z_v": 6.0,
+    "floor_tolerance": -2.0
+  },
+  "reports": [
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.757133483886719,
+      "max_pelvis_speed_m_s": 0.8825215101242065,
+      "min_pelvis_z": -0.18053558468818665
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.201791763305664,
+      "max_pelvis_speed_m_s": 1.1440446376800537,
+      "min_pelvis_z": 0.13234731554985046
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR0_ch03.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.3696928024292,
+      "max_pelvis_speed_m_s": 1.1788909435272217,
+      "min_pelvis_z": -0.1398080438375473
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR0_ch04.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.597586631774902,
+      "max_pelvis_speed_m_s": 1.15788996219635,
+      "min_pelvis_z": -0.12842141091823578
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR0_ch05.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.84489917755127,
+      "max_pelvis_speed_m_s": 1.5343462228775024,
+      "min_pelvis_z": -0.4000817537307739
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR0_ch06.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.19068145751953,
+      "max_pelvis_speed_m_s": 2.0735361576080322,
+      "min_pelvis_z": -0.3977382183074951
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR0_ch09.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.1235990524292,
+      "max_pelvis_speed_m_s": 1.3185821771621704,
+      "min_pelvis_z": -0.43758895993232727
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.031527519226074,
+      "max_pelvis_speed_m_s": 1.073050618171692,
+      "min_pelvis_z": -0.432719349861145
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.624659538269043,
+      "max_pelvis_speed_m_s": 1.1772732734680176,
+      "min_pelvis_z": -0.24697589874267578
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.696125030517578,
+      "max_pelvis_speed_m_s": 0.9757859110832214,
+      "min_pelvis_z": -0.24357470870018005
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.24675750732422,
+      "max_pelvis_speed_m_s": 1.2318943738937378,
+      "min_pelvis_z": -0.21579740941524506
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 23.543001174926758,
+      "max_pelvis_speed_m_s": 1.3857911825180054,
+      "min_pelvis_z": -0.41384822130203247
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d04_mBR3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.288118362426758,
+      "max_pelvis_speed_m_s": 1.3488569259643555,
+      "min_pelvis_z": -0.38746318221092224
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.44656753540039,
+      "max_pelvis_speed_m_s": 1.069000482559204,
+      "min_pelvis_z": -0.26340243220329285
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.322805404663086,
+      "max_pelvis_speed_m_s": 1.2657774686813354,
+      "min_pelvis_z": -0.27652060985565186
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch03.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.73989486694336,
+      "max_pelvis_speed_m_s": 1.3170548677444458,
+      "min_pelvis_z": -0.3332405090332031
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch04.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 23.790037155151367,
+      "max_pelvis_speed_m_s": 1.274397373199463,
+      "min_pelvis_z": -0.41604703664779663
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch05.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.470012664794922,
+      "max_pelvis_speed_m_s": 2.480407238006592,
+      "min_pelvis_z": -0.7145037651062012
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch06.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_speed_warn",
+          "joint": 13,
+          "frame": 23,
+          "value": 58.005062103271484,
+          "limit": 50.0
+        }
+      ],
+      "max_joint_speed_rad_s": 58.005062103271484,
+      "max_pelvis_speed_m_s": 1.6697379350662231,
+      "min_pelvis_z": -0.844438374042511
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch08.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 35.830814361572266,
+      "max_pelvis_speed_m_s": 3.7973835468292236,
+      "min_pelvis_z": -0.23672784864902496
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch09.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.410612106323242,
+      "max_pelvis_speed_m_s": 1.2454861402511597,
+      "min_pelvis_z": -0.3964526355266571
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR0_ch10.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.692152976989746,
+      "max_pelvis_speed_m_s": 0.5781071186065674,
+      "min_pelvis_z": -0.4000241458415985
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.0141658782959,
+      "max_pelvis_speed_m_s": 1.4008829593658447,
+      "min_pelvis_z": -0.5532819032669067
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.472278594970703,
+      "max_pelvis_speed_m_s": 1.6051679849624634,
+      "min_pelvis_z": -0.42852073907852173
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.178112030029297,
+      "max_pelvis_speed_m_s": 1.2686915397644043,
+      "min_pelvis_z": -0.3837380111217499
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_speed_warn",
+          "joint": 15,
+          "frame": 175,
+          "value": -51.45222091674805,
+          "limit": 50.0
+        }
+      ],
+      "max_joint_speed_rad_s": 51.45222091674805,
+      "max_pelvis_speed_m_s": 1.6748658418655396,
+      "min_pelvis_z": -0.3318771421909332
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.410905838012695,
+      "max_pelvis_speed_m_s": 1.2710520029067993,
+      "min_pelvis_z": -0.3317616879940033
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d05_mBR5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.21607780456543,
+      "max_pelvis_speed_m_s": 0.8479570746421814,
+      "min_pelvis_z": -0.335772305727005
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d06_mBR2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.151632308959961,
+      "max_pelvis_speed_m_s": 1.4911946058273315,
+      "min_pelvis_z": -0.1732882559299469
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d06_mBR2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.135442733764648,
+      "max_pelvis_speed_m_s": 1.0507041215896606,
+      "min_pelvis_z": -0.13530783355236053
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d06_mBR3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.154921531677246,
+      "max_pelvis_speed_m_s": 1.2977874279022217,
+      "min_pelvis_z": -0.22858411073684692
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d06_mBR3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.399070739746094,
+      "max_pelvis_speed_m_s": 1.0526002645492554,
+      "min_pelvis_z": -0.12576135993003845
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d06_mBR4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.175287246704102,
+      "max_pelvis_speed_m_s": 1.1350736618041992,
+      "min_pelvis_z": -0.19406896829605103
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d06_mBR4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.351306915283203,
+      "max_pelvis_speed_m_s": 1.0621740818023682,
+      "min_pelvis_z": 0.02458799257874489
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d06_mBR5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.126554489135742,
+      "max_pelvis_speed_m_s": 1.7216465473175049,
+      "min_pelvis_z": -0.20186440646648407
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sBM_cAll_d06_mBR5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.31171417236328,
+      "max_pelvis_speed_m_s": 1.2594050168991089,
+      "min_pelvis_z": -0.3890039920806885
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gBR_sFM_cAll_d04_mBR0_ch01.pkl",
+      "frames": 1439,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 22.41134262084961,
+      "max_pelvis_speed_m_s": 1.4664520025253296,
+      "min_pelvis_z": -1.0001163482666016
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d19_mHO0_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.961607933044434,
+      "max_pelvis_speed_m_s": 0.7328681945800781,
+      "min_pelvis_z": -0.23411278426647186
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d19_mHO0_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.895743370056152,
+      "max_pelvis_speed_m_s": 1.0898739099502563,
+      "min_pelvis_z": -0.23072998225688934
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d19_mHO1_ch01.pkl",
+      "frames": 250,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.440260887145996,
+      "max_pelvis_speed_m_s": 0.7314935326576233,
+      "min_pelvis_z": -0.09818506985902786
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d19_mHO1_ch02.pkl",
+      "frames": 250,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.537069320678711,
+      "max_pelvis_speed_m_s": 1.1590443849563599,
+      "min_pelvis_z": -0.18405663967132568
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d19_mHO2_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.458301544189453,
+      "max_pelvis_speed_m_s": 0.7741270065307617,
+      "min_pelvis_z": -0.2007846236228943
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d19_mHO2_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.27804183959961,
+      "max_pelvis_speed_m_s": 1.1343320608139038,
+      "min_pelvis_z": -0.18766821920871735
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d19_mHO3_ch01.pkl",
+      "frames": 230,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.746814727783203,
+      "max_pelvis_speed_m_s": 1.0785843133926392,
+      "min_pelvis_z": -0.17473307251930237
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d19_mHO3_ch02.pkl",
+      "frames": 230,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.48514175415039,
+      "max_pelvis_speed_m_s": 1.6264303922653198,
+      "min_pelvis_z": -0.32062003016471863
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO0_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.041687965393066,
+      "max_pelvis_speed_m_s": 1.0113017559051514,
+      "min_pelvis_z": -0.24792228639125824
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO0_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.622841835021973,
+      "max_pelvis_speed_m_s": 1.1240941286087036,
+      "min_pelvis_z": -0.4638013541698456
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO1_ch01.pkl",
+      "frames": 250,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.018991470336914,
+      "max_pelvis_speed_m_s": 1.2759766578674316,
+      "min_pelvis_z": -0.2876897156238556
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO1_ch02.pkl",
+      "frames": 250,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.146249771118164,
+      "max_pelvis_speed_m_s": 1.5156731605529785,
+      "min_pelvis_z": -0.33530572056770325
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO4_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.963994979858398,
+      "max_pelvis_speed_m_s": 0.7735270261764526,
+      "min_pelvis_z": -0.32841700315475464
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO4_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.641088962554932,
+      "max_pelvis_speed_m_s": 0.9178956151008606,
+      "min_pelvis_z": -0.2837470471858978
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch01.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.0608491897583,
+      "max_pelvis_speed_m_s": 0.8369091749191284,
+      "min_pelvis_z": -0.2676638662815094
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch02.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.900092124938965,
+      "max_pelvis_speed_m_s": 1.2230477333068848,
+      "min_pelvis_z": -0.3289123773574829
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch03.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.485282897949219,
+      "max_pelvis_speed_m_s": 1.1513499021530151,
+      "min_pelvis_z": -0.4679422974586487
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch04.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.44690227508545,
+      "max_pelvis_speed_m_s": 1.0671015977859497,
+      "min_pelvis_z": -0.3255297839641571
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch05.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.437933921813965,
+      "max_pelvis_speed_m_s": 1.040827751159668,
+      "min_pelvis_z": -0.32843217253685
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch06.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.258679389953613,
+      "max_pelvis_speed_m_s": 1.0872315168380737,
+      "min_pelvis_z": -0.3357056677341461
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch07.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.314800262451172,
+      "max_pelvis_speed_m_s": 1.4335885047912598,
+      "min_pelvis_z": -0.28896182775497437
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch08.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.836796760559082,
+      "max_pelvis_speed_m_s": 1.3869954347610474,
+      "min_pelvis_z": -0.2515984773635864
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch09.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.149839401245117,
+      "max_pelvis_speed_m_s": 0.9106170535087585,
+      "min_pelvis_z": -0.38044261932373047
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d20_mHO5_ch10.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.33793830871582,
+      "max_pelvis_speed_m_s": 1.2257918119430542,
+      "min_pelvis_z": -0.15213792026042938
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO2_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.45365047454834,
+      "max_pelvis_speed_m_s": 0.8480273485183716,
+      "min_pelvis_z": -0.28157132863998413
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO2_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.153077125549316,
+      "max_pelvis_speed_m_s": 1.1990500688552856,
+      "min_pelvis_z": -0.2772916555404663
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO3_ch01.pkl",
+      "frames": 230,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.610796928405762,
+      "max_pelvis_speed_m_s": 1.0024609565734863,
+      "min_pelvis_z": -0.33298802375793457
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO3_ch02.pkl",
+      "frames": 230,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.368425369262695,
+      "max_pelvis_speed_m_s": 1.474729061126709,
+      "min_pelvis_z": -0.4811563193798065
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO4_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.39446449279785,
+      "max_pelvis_speed_m_s": 0.9728310108184814,
+      "min_pelvis_z": -0.3820091784000397
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO4_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.295608520507812,
+      "max_pelvis_speed_m_s": 1.4563188552856445,
+      "min_pelvis_z": -0.4724784791469574
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch01.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.23107147216797,
+      "max_pelvis_speed_m_s": 1.2555148601531982,
+      "min_pelvis_z": -0.73624587059021
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch02.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.531562805175781,
+      "max_pelvis_speed_m_s": 1.8651162385940552,
+      "min_pelvis_z": -0.5782670974731445
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch03.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 22.96498680114746,
+      "max_pelvis_speed_m_s": 1.3817625045776367,
+      "min_pelvis_z": -0.32655155658721924
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch04.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.371376991271973,
+      "max_pelvis_speed_m_s": 1.564936637878418,
+      "min_pelvis_z": -0.5828023552894592
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch05.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.97031021118164,
+      "max_pelvis_speed_m_s": 1.2507003545761108,
+      "min_pelvis_z": -0.8147478699684143
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch06.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 23.404754638671875,
+      "max_pelvis_speed_m_s": 1.1336041688919067,
+      "min_pelvis_z": -0.41750043630599976
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch07.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.290870666503906,
+      "max_pelvis_speed_m_s": 1.5777904987335205,
+      "min_pelvis_z": -0.3401632010936737
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch08.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.131935119628906,
+      "max_pelvis_speed_m_s": 1.5393732786178589,
+      "min_pelvis_z": -0.40265557169914246
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch09.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.813112258911133,
+      "max_pelvis_speed_m_s": 1.1288249492645264,
+      "min_pelvis_z": -0.3746028542518616
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sBM_cAll_d21_mHO5_ch10.pkl",
+      "frames": 213,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.104703903198242,
+      "max_pelvis_speed_m_s": 1.4643763303756714,
+      "min_pelvis_z": -0.3003880977630615
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sFM_cAll_d19_mHO5_ch06.pkl",
+      "frames": 853,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.227373123168945,
+      "max_pelvis_speed_m_s": 1.9922586679458618,
+      "min_pelvis_z": -0.922259509563446
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gHO_sFM_cAll_d21_mHO5_ch20.pkl",
+      "frames": 853,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 577,
+          "value": 3.2446067333221436,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 814,
+          "value": 3.27468204498291,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 815,
+          "value": 3.386862277984619,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 816,
+          "value": 3.413980007171631,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 33.18304443359375,
+      "max_pelvis_speed_m_s": 1.8071367740631104,
+      "min_pelvis_z": -0.4224265217781067
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d07_mJB0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 84,
+          "value": 3.2715725898742676,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 147,
+          "value": 3.294887065887451,
+          "limit": 3.24
+        },
+        {
+          "kind": "floor",
+          "joint": null,
+          "frame": 0,
+          "value": -2.1904196739196777,
+          "limit": -2.0
+        }
+      ],
+      "max_joint_speed_rad_s": 38.950382232666016,
+      "max_pelvis_speed_m_s": 1.4137800931930542,
+      "min_pelvis_z": -2.1904196739196777
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d07_mJB0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 25,
+          "value": 3.290199041366577,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 62,
+          "value": 3.2469711303710938,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 176,
+          "value": 3.2926809787750244,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 264,
+          "value": 3.2513391971588135,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 294,
+          "value": 3.3168773651123047,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 321,
+          "value": 3.342733860015869,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 48.00322341918945,
+      "max_pelvis_speed_m_s": 1.7967157363891602,
+      "min_pelvis_z": -1.5407729148864746
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d07_mJB1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 54,
+          "value": 3.2610580921173096,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 215,
+          "value": 3.2660248279571533,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 20.04947280883789,
+      "max_pelvis_speed_m_s": 1.083638072013855,
+      "min_pelvis_z": -1.5330052375793457
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d07_mJB1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 108,
+          "value": 3.2436394691467285,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 129,
+          "value": 3.3270444869995117,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 150,
+          "value": 3.4678542613983154,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 174,
+          "value": 3.506466865539551,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 198,
+          "value": 3.3047893047332764,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 224,
+          "value": 3.361658811569214,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 39.71385192871094,
+      "max_pelvis_speed_m_s": 2.361696720123291,
+      "min_pelvis_z": -1.7891360521316528
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d07_mJB2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 247,
+          "value": 3.2910733222961426,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 18.73900032043457,
+      "max_pelvis_speed_m_s": 1.4009544849395752,
+      "min_pelvis_z": -1.9241021871566772
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d07_mJB2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 15,
+          "value": 3.3943870067596436,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 92,
+          "value": 3.313520908355713,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 134,
+          "value": 3.45914626121521,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 155,
+          "value": 3.4358150959014893,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 177,
+          "value": 3.489488124847412,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 200,
+          "value": 3.3166871070861816,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 34.823638916015625,
+      "max_pelvis_speed_m_s": 2.6677908897399902,
+      "min_pelvis_z": -1.687528133392334
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d07_mJB3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 13,
+          "value": 3.3534839153289795,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 77,
+          "value": 3.302737236022949,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 78,
+          "value": 3.6078550815582275,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 165,
+          "value": 3.3297064304351807,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 183,
+          "value": 3.4243106842041016,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 203,
+          "value": 3.638141393661499,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 222,
+          "value": 3.2940804958343506,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 243,
+          "value": 3.293060064315796,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 38.2501220703125,
+      "max_pelvis_speed_m_s": 1.9869310855865479,
+      "min_pelvis_z": -1.1999367475509644
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 29,
+          "value": 3.254298448562622,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 94,
+          "value": 3.283268928527832,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 168,
+          "value": 3.299588203430176,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 169,
+          "value": 3.439976692199707,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 170,
+          "value": 3.5561611652374268,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 247,
+          "value": 3.268061637878418,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 248,
+          "value": 3.3690288066864014,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 249,
+          "value": 3.4430904388427734,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 250,
+          "value": 3.4711899757385254,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 251,
+          "value": 3.4942684173583984,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 25.174362182617188,
+      "max_pelvis_speed_m_s": 1.58320951461792,
+      "min_pelvis_z": -1.3438935279846191
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 140,
+          "value": 3.3511598110198975,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 180,
+          "value": 3.271491527557373,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 254,
+          "value": 3.2494425773620605,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 255,
+          "value": 3.3257172107696533,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 289,
+          "value": 3.2883663177490234,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 290,
+          "value": 3.5157432556152344,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 26.863258361816406,
+      "max_pelvis_speed_m_s": 1.9757835865020752,
+      "min_pelvis_z": -1.6300963163375854
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 85,
+          "value": 3.2567715644836426,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 155,
+          "value": 3.257397174835205,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 156,
+          "value": 3.3335323333740234,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 157,
+          "value": 3.394805908203125,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 158,
+          "value": 3.4104788303375244,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 159,
+          "value": 3.450150489807129,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 187,
+          "value": 3.2898569107055664,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 227,
+          "value": 3.3810181617736816,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 228,
+          "value": 3.47068190574646,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 229,
+          "value": 3.545639753341675,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 29.01961898803711,
+      "max_pelvis_speed_m_s": 1.6848278045654297,
+      "min_pelvis_z": -1.4794466495513916
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 87,
+          "value": 3.2560744285583496,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 124,
+          "value": 3.4177744388580322,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 222,
+          "value": 3.312997341156006,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 223,
+          "value": 3.3936142921447754,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 255,
+          "value": 3.389620780944824,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 256,
+          "value": 3.5445001125335693,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 30.779991149902344,
+      "max_pelvis_speed_m_s": 1.9397737979888916,
+      "min_pelvis_z": -1.6567107439041138
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 65,
+          "value": 3.5529372692108154,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 122,
+          "value": 3.240809679031372,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 147,
+          "value": 3.2720377445220947,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 176,
+          "value": 3.4387407302856445,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 31.817798614501953,
+      "max_pelvis_speed_m_s": 1.9457199573516846,
+      "min_pelvis_z": -1.4357948303222656
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 8,
+          "value": 3.278270959854126,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 96,
+          "value": 3.558774948120117,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 97,
+          "value": 3.2902939319610596,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 127,
+          "value": 3.389133930206299,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 153,
+          "value": 3.3471217155456543,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 32.45685958862305,
+      "max_pelvis_speed_m_s": 2.12728214263916,
+      "min_pelvis_z": -1.7266348600387573
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 211,
+          "value": 3.3135886192321777,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 212,
+          "value": 3.4885101318359375,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 24.80061149597168,
+      "max_pelvis_speed_m_s": 1.553558111190796,
+      "min_pelvis_z": -0.517206072807312
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 165,
+          "value": 3.3677191734313965,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 187,
+          "value": 3.3398685455322266,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 188,
+          "value": 3.549779176712036,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 189,
+          "value": 3.673239231109619,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 216,
+          "value": 3.3999125957489014,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 35.365997314453125,
+      "max_pelvis_speed_m_s": 2.114915370941162,
+      "min_pelvis_z": -1.366870641708374
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch03.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.846451759338379,
+      "max_pelvis_speed_m_s": 1.2911052703857422,
+      "min_pelvis_z": -0.827301025390625
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch04.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.615850448608398,
+      "max_pelvis_speed_m_s": 1.1289185285568237,
+      "min_pelvis_z": -1.1966866254806519
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch05.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.532160758972168,
+      "max_pelvis_speed_m_s": 2.1401729583740234,
+      "min_pelvis_z": -1.1503912210464478
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch06.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "floor",
+          "joint": null,
+          "frame": 112,
+          "value": -2.3466641902923584,
+          "limit": -2.0
+        }
+      ],
+      "max_joint_speed_rad_s": 48.00075149536133,
+      "max_pelvis_speed_m_s": 3.8965871334075928,
+      "min_pelvis_z": -2.3466641902923584
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch08.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.464205741882324,
+      "max_pelvis_speed_m_s": 1.5162125825881958,
+      "min_pelvis_z": -1.2805147171020508
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch09.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 140,
+          "value": 3.2694015502929688,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 199,
+          "value": 3.262482166290283,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 200,
+          "value": 3.3323848247528076,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 20.625883102416992,
+      "max_pelvis_speed_m_s": 2.501549482345581,
+      "min_pelvis_z": -1.765250325202942
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d08_mJB5_ch10.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 72,
+          "value": 3.3614447116851807,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 176,
+          "value": 3.4648942947387695,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 179,
+          "value": 3.4292893409729004,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 180,
+          "value": 3.270956039428711,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 41.40894317626953,
+      "max_pelvis_speed_m_s": 0.8433439135551453,
+      "min_pelvis_z": -0.9229625463485718
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 198,
+          "value": 3.2585387229919434,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 250,
+          "value": 3.245968818664551,
+          "limit": 3.24
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 19,
+          "frame": 285,
+          "value": 50.86693572998047,
+          "limit": 50.0
+        }
+      ],
+      "max_joint_speed_rad_s": 50.86693572998047,
+      "max_pelvis_speed_m_s": 1.337643027305603,
+      "min_pelvis_z": -0.2941162884235382
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 24.409259796142578,
+      "max_pelvis_speed_m_s": 2.0269246101379395,
+      "min_pelvis_z": -0.6302317976951599
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.9514102935791,
+      "max_pelvis_speed_m_s": 1.6335221529006958,
+      "min_pelvis_z": -1.062971830368042
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 178,
+          "value": 3.2412209510803223,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 20.685407638549805,
+      "max_pelvis_speed_m_s": 1.969892144203186,
+      "min_pelvis_z": -0.7990003824234009
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.67986297607422,
+      "max_pelvis_speed_m_s": 1.5974918603897095,
+      "min_pelvis_z": -1.3423280715942383
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 25.859424591064453,
+      "max_pelvis_speed_m_s": 2.026926040649414,
+      "min_pelvis_z": -0.8679729104042053
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.698780059814453,
+      "max_pelvis_speed_m_s": 1.5805835723876953,
+      "min_pelvis_z": -1.5331450700759888
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.388383865356445,
+      "max_pelvis_speed_m_s": 2.3694674968719482,
+      "min_pelvis_z": -0.6541598439216614
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch03.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 34,
+          "value": 3.296499252319336,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 40.63627243041992,
+      "max_pelvis_speed_m_s": 1.657936930656433,
+      "min_pelvis_z": -0.6478036642074585
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch04.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.998905181884766,
+      "max_pelvis_speed_m_s": 2.203248977661133,
+      "min_pelvis_z": 0.127053901553154
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch05.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.85859489440918,
+      "max_pelvis_speed_m_s": 2.247851848602295,
+      "min_pelvis_z": 0.19940486550331116
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch06.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_speed_warn",
+          "joint": 4,
+          "frame": 65,
+          "value": 66.78152465820312,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 4,
+          "frame": 166,
+          "value": 52.17018508911133,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 4,
+          "frame": 65,
+          "value": -3482.728271484375,
+          "limit": 2500.0
+        },
+        {
+          "kind": "root_speed_xy_warn",
+          "joint": null,
+          "frame": 166,
+          "value": 4.202294826507568,
+          "limit": 4.0
+        },
+        {
+          "kind": "root_speed_xy_warn",
+          "joint": null,
+          "frame": 172,
+          "value": 4.113133430480957,
+          "limit": 4.0
+        },
+        {
+          "kind": "floor",
+          "joint": null,
+          "frame": 0,
+          "value": -2.4436700344085693,
+          "limit": -2.0
+        }
+      ],
+      "max_joint_speed_rad_s": 66.78152465820312,
+      "max_pelvis_speed_m_s": 4.202294826507568,
+      "min_pelvis_z": -2.4436700344085693
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch07.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_speed_warn",
+          "joint": 4,
+          "frame": 72,
+          "value": 57.648895263671875,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 4,
+          "frame": 73,
+          "value": -50.14147186279297,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 15,
+          "frame": 96,
+          "value": 59.78002166748047,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 4,
+          "frame": 72,
+          "value": -3233.7109375,
+          "limit": 2500.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 15,
+          "frame": 96,
+          "value": -3760.196044921875,
+          "limit": 2500.0
+        },
+        {
+          "kind": "root_speed_xy_warn",
+          "joint": null,
+          "frame": 192,
+          "value": 4.261831283569336,
+          "limit": 4.0
+        },
+        {
+          "kind": "floor",
+          "joint": null,
+          "frame": 1,
+          "value": -2.201890468597412,
+          "limit": -2.0
+        }
+      ],
+      "max_joint_speed_rad_s": 65.55985260009766,
+      "max_pelvis_speed_m_s": 4.261831283569336,
+      "min_pelvis_z": -2.201890468597412
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch08.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.218708992004395,
+      "max_pelvis_speed_m_s": 2.075524091720581,
+      "min_pelvis_z": -0.1570720374584198
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sBM_cAll_d09_mJB5_ch10.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 63,
+          "value": 3.3849453926086426,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 39.94477462768555,
+      "max_pelvis_speed_m_s": 1.68107271194458,
+      "min_pelvis_z": 0.3513745069503784
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sFM_cAll_d07_mJB5_ch06.pkl",
+      "frames": 886,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 14,
+          "frame": 307,
+          "value": 3.5855350494384766,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 851,
+          "value": 3.2402844429016113,
+          "limit": 3.24
+        },
+        {
+          "kind": "angular_speed",
+          "joint": 14,
+          "frame": 306,
+          "value": 93.52619934082031,
+          "limit": 80.0
+        },
+        {
+          "kind": "angular_speed",
+          "joint": 14,
+          "frame": 307,
+          "value": -94.63613891601562,
+          "limit": 80.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 0,
+          "frame": 168,
+          "value": 53.200538635253906,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 0,
+          "frame": 306,
+          "value": -65.65818786621094,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 14,
+          "frame": 305,
+          "value": 2877.009521484375,
+          "limit": 2500.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 0,
+          "frame": 306,
+          "value": 3347.8349609375,
+          "limit": 2500.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 14,
+          "frame": 306,
+          "value": -5644.87060546875,
+          "limit": 2500.0
+        },
+        {
+          "kind": "floor",
+          "joint": null,
+          "frame": 885,
+          "value": -3.2643468379974365,
+          "limit": -2.0
+        }
+      ],
+      "max_joint_speed_rad_s": 94.63613891601562,
+      "max_pelvis_speed_m_s": 2.4435043334960938,
+      "min_pelvis_z": -3.2643468379974365
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sFM_cAll_d08_mJB5_ch13.pkl",
+      "frames": 886,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 270,
+          "value": 3.3178746700286865,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 38.73444366455078,
+      "max_pelvis_speed_m_s": 2.1489155292510986,
+      "min_pelvis_z": -1.8960317373275757
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sFM_cAll_d08_mJB5_ch14.pkl",
+      "frames": 886,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 279,
+          "value": 3.261422634124756,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 25.910823822021484,
+      "max_pelvis_speed_m_s": 2.786869764328003,
+      "min_pelvis_z": -1.4464430809020996
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJB_sFM_cAll_d09_mJB5_ch20.pkl",
+      "frames": 886,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_speed_warn",
+          "joint": 0,
+          "frame": 805,
+          "value": -62.819820404052734,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 14,
+          "frame": 805,
+          "value": 74.955322265625,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 0,
+          "frame": 806,
+          "value": 64.88450622558594,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 0,
+          "frame": 805,
+          "value": 3831.1298828125,
+          "limit": 2500.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 14,
+          "frame": 805,
+          "value": -4327.2861328125,
+          "limit": 2500.0
+        }
+      ],
+      "max_joint_speed_rad_s": 74.955322265625,
+      "max_pelvis_speed_m_s": 2.687187910079956,
+      "min_pelvis_z": -1.972068190574646
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.4738174676895142,
+      "max_pelvis_speed_m_s": 0.0508994460105896,
+      "min_pelvis_z": -0.09875936806201935
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.7125152349472046,
+      "max_pelvis_speed_m_s": 0.5313891768455505,
+      "min_pelvis_z": -0.0773937851190567
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.6360937356948853,
+      "max_pelvis_speed_m_s": 0.04861820116639137,
+      "min_pelvis_z": -0.16425658762454987
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.1116939783096313,
+      "max_pelvis_speed_m_s": 0.4637676179409027,
+      "min_pelvis_z": -0.16723085939884186
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 2.5900120735168457,
+      "max_pelvis_speed_m_s": 0.05161856487393379,
+      "min_pelvis_z": -0.1050751581788063
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.2657899856567383,
+      "max_pelvis_speed_m_s": 0.5018309950828552,
+      "min_pelvis_z": -0.07811414450407028
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 3.188164234161377,
+      "max_pelvis_speed_m_s": 0.06018304452300072,
+      "min_pelvis_z": -0.15145616233348846
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.9649806022644043,
+      "max_pelvis_speed_m_s": 0.49044662714004517,
+      "min_pelvis_z": -0.19572310149669647
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch03.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.145263671875,
+      "max_pelvis_speed_m_s": 0.8002212047576904,
+      "min_pelvis_z": -0.17654386162757874
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch04.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.937501907348633,
+      "max_pelvis_speed_m_s": 2.1151180267333984,
+      "min_pelvis_z": -0.16986273229122162
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch05.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.8813763856887817,
+      "max_pelvis_speed_m_s": 0.12910814583301544,
+      "min_pelvis_z": -0.22450882196426392
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch06.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.175018310546875,
+      "max_pelvis_speed_m_s": 1.2553694248199463,
+      "min_pelvis_z": -0.2878718376159668
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch07.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.249557495117188,
+      "max_pelvis_speed_m_s": 1.0382190942764282,
+      "min_pelvis_z": -0.27833178639411926
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch08.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 25.726911544799805,
+      "max_pelvis_speed_m_s": 2.2913191318511963,
+      "min_pelvis_z": -0.7676852345466614
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch09.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.329002380371094,
+      "max_pelvis_speed_m_s": 2.4719486236572266,
+      "min_pelvis_z": -0.5290946364402771
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d01_mJS3_ch10.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.886799812316895,
+      "max_pelvis_speed_m_s": 0.7746273279190063,
+      "min_pelvis_z": -0.35189804434776306
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d02_mJS0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.334214687347412,
+      "max_pelvis_speed_m_s": 0.03519660606980324,
+      "min_pelvis_z": -0.12226548790931702
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d02_mJS0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.0154668092727661,
+      "max_pelvis_speed_m_s": 0.461554616689682,
+      "min_pelvis_z": -0.10977666825056076
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d02_mJS1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.6429593563079834,
+      "max_pelvis_speed_m_s": 0.04038438946008682,
+      "min_pelvis_z": -0.16388574242591858
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d02_mJS1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.0751643180847168,
+      "max_pelvis_speed_m_s": 0.48732730746269226,
+      "min_pelvis_z": -0.15139640867710114
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d02_mJS4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.4152978658676147,
+      "max_pelvis_speed_m_s": 0.027695953845977783,
+      "min_pelvis_z": -0.17487689852714539
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d02_mJS4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 0.9302034378051758,
+      "max_pelvis_speed_m_s": 0.45207685232162476,
+      "min_pelvis_z": -0.05754329264163971
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d02_mJS5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.3771989345550537,
+      "max_pelvis_speed_m_s": 0.026608332991600037,
+      "min_pelvis_z": -0.11552585661411285
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d02_mJS5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.3656797409057617,
+      "max_pelvis_speed_m_s": 0.46935904026031494,
+      "min_pelvis_z": -0.1105271428823471
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.8363269567489624,
+      "max_pelvis_speed_m_s": 0.041523534804582596,
+      "min_pelvis_z": -0.10186585038900375
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 0.9303625822067261,
+      "max_pelvis_speed_m_s": 0.37857508659362793,
+      "min_pelvis_z": -0.10491468757390976
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 2.566671848297119,
+      "max_pelvis_speed_m_s": 0.043409042060375214,
+      "min_pelvis_z": -0.10592014342546463
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 0.8337516784667969,
+      "max_pelvis_speed_m_s": 0.4042801558971405,
+      "min_pelvis_z": -0.10185778886079788
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch03.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.425673484802246,
+      "max_pelvis_speed_m_s": 0.8634615540504456,
+      "min_pelvis_z": -0.193503737449646
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch04.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.396106719970703,
+      "max_pelvis_speed_m_s": 1.8057653903961182,
+      "min_pelvis_z": -0.2416139543056488
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch05.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.9587429761886597,
+      "max_pelvis_speed_m_s": 0.09372741729021072,
+      "min_pelvis_z": -0.15913762152194977
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch06.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.888998985290527,
+      "max_pelvis_speed_m_s": 1.326039433479309,
+      "min_pelvis_z": -0.1767147332429886
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch07.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.175004482269287,
+      "max_pelvis_speed_m_s": 0.9659771919250488,
+      "min_pelvis_z": -0.3091466724872589
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch08.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.783463478088379,
+      "max_pelvis_speed_m_s": 1.411717176437378,
+      "min_pelvis_z": -0.4833875894546509
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS3_ch09.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.20450496673584,
+      "max_pelvis_speed_m_s": 1.778983473777771,
+      "min_pelvis_z": -0.28115224838256836
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 2.695115566253662,
+      "max_pelvis_speed_m_s": 0.05891988053917885,
+      "min_pelvis_z": -0.16092446446418762
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.159710168838501,
+      "max_pelvis_speed_m_s": 0.520545482635498,
+      "min_pelvis_z": -0.13890931010246277
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 3.41483736038208,
+      "max_pelvis_speed_m_s": 0.05383838340640068,
+      "min_pelvis_z": -0.13241823017597198
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sBM_cAll_d03_mJS5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.0760862827301025,
+      "max_pelvis_speed_m_s": 0.3187296390533447,
+      "min_pelvis_z": -0.12832298874855042
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sFM_cAll_d01_mJS3_ch04.pkl",
+      "frames": 1047,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_speed_warn",
+          "joint": 0,
+          "frame": 780,
+          "value": 52.16722869873047,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 14,
+          "frame": 780,
+          "value": -50.14879608154297,
+          "limit": 50.0
+        }
+      ],
+      "max_joint_speed_rad_s": 52.16722869873047,
+      "max_pelvis_speed_m_s": 1.9506895542144775,
+      "min_pelvis_z": -0.5832439064979553
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sFM_cAll_d02_mJS3_ch04.pkl",
+      "frames": 1047,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 30.691265106201172,
+      "max_pelvis_speed_m_s": 2.014329671859741,
+      "min_pelvis_z": -1.2810513973236084
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gJS_sFM_cAll_d03_mJS3_ch04.pkl",
+      "frames": 1047,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 24.93766975402832,
+      "max_pelvis_speed_m_s": 1.958952784538269,
+      "min_pelvis_z": -1.0771297216415405
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.964269638061523,
+      "max_pelvis_speed_m_s": 0.7212997078895569,
+      "min_pelvis_z": 0.0048270863480865955
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 3.494736671447754,
+      "max_pelvis_speed_m_s": 0.6445624828338623,
+      "min_pelvis_z": 0.041017867624759674
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.215831756591797,
+      "max_pelvis_speed_m_s": 1.4815083742141724,
+      "min_pelvis_z": -0.17330394685268402
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.563013553619385,
+      "max_pelvis_speed_m_s": 0.7361171245574951,
+      "min_pelvis_z": -0.1156420186161995
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.428528785705566,
+      "max_pelvis_speed_m_s": 0.8978095054626465,
+      "min_pelvis_z": -0.1953783482313156
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.244668960571289,
+      "max_pelvis_speed_m_s": 0.9702035188674927,
+      "min_pelvis_z": -0.1565893590450287
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch03.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.831951141357422,
+      "max_pelvis_speed_m_s": 0.46654728055000305,
+      "min_pelvis_z": -0.04906173795461655
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch04.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.539161682128906,
+      "max_pelvis_speed_m_s": 0.5405020117759705,
+      "min_pelvis_z": -0.09911169111728668
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch05.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.189738273620605,
+      "max_pelvis_speed_m_s": 1.1983054876327515,
+      "min_pelvis_z": -0.10852760821580887
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch06.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.783945083618164,
+      "max_pelvis_speed_m_s": 1.4454046487808228,
+      "min_pelvis_z": -0.10936755686998367
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch07.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.279315948486328,
+      "max_pelvis_speed_m_s": 2.2018115520477295,
+      "min_pelvis_z": -0.621406078338623
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch08.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 25.96544075012207,
+      "max_pelvis_speed_m_s": 0.8795228004455566,
+      "min_pelvis_z": -0.4130716323852539
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch09.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.542330265045166,
+      "max_pelvis_speed_m_s": 0.6559903025627136,
+      "min_pelvis_z": -0.4213671088218689
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR2_ch10.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.944547653198242,
+      "max_pelvis_speed_m_s": 0.5531203746795654,
+      "min_pelvis_z": -0.29559171199798584
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.503721237182617,
+      "max_pelvis_speed_m_s": 2.0447468757629395,
+      "min_pelvis_z": -0.674060046672821
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d28_mKR3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.809006690979004,
+      "max_pelvis_speed_m_s": 1.3767191171646118,
+      "min_pelvis_z": -0.3478603661060333
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d29_mKR0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.68587875366211,
+      "max_pelvis_speed_m_s": 0.8386472463607788,
+      "min_pelvis_z": -0.27830538153648376
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d29_mKR0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.52891206741333,
+      "max_pelvis_speed_m_s": 0.1325310617685318,
+      "min_pelvis_z": -0.021832916885614395
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d29_mKR1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.231584548950195,
+      "max_pelvis_speed_m_s": 1.5180994272232056,
+      "min_pelvis_z": -0.19596248865127563
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d29_mKR1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.96734619140625,
+      "max_pelvis_speed_m_s": 1.2104498147964478,
+      "min_pelvis_z": -0.29550862312316895
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d29_mKR4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.410114288330078,
+      "max_pelvis_speed_m_s": 1.009312391281128,
+      "min_pelvis_z": 0.07795491814613342
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d29_mKR4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.707625865936279,
+      "max_pelvis_speed_m_s": 0.6418445706367493,
+      "min_pelvis_z": 0.1787092238664627
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d29_mKR5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.32157039642334,
+      "max_pelvis_speed_m_s": 1.081833839416504,
+      "min_pelvis_z": 0.25889113545417786
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d29_mKR5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.872238159179688,
+      "max_pelvis_speed_m_s": 0.7718228697776794,
+      "min_pelvis_z": 0.07260019332170486
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.58515739440918,
+      "max_pelvis_speed_m_s": 0.8404344916343689,
+      "min_pelvis_z": -0.228562131524086
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.829651355743408,
+      "max_pelvis_speed_m_s": 0.6974312663078308,
+      "min_pelvis_z": -0.2711360454559326
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch03.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.70005989074707,
+      "max_pelvis_speed_m_s": 0.46449461579322815,
+      "min_pelvis_z": -0.2220582664012909
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch04.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.605667114257812,
+      "max_pelvis_speed_m_s": 0.9093943238258362,
+      "min_pelvis_z": -0.28161755204200745
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch05.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.22900676727295,
+      "max_pelvis_speed_m_s": 0.9587990641593933,
+      "min_pelvis_z": -0.25343775749206543
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch06.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.35713005065918,
+      "max_pelvis_speed_m_s": 1.0395070314407349,
+      "min_pelvis_z": -0.19840174913406372
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch07.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.773401260375977,
+      "max_pelvis_speed_m_s": 2.691523551940918,
+      "min_pelvis_z": -0.40005335211753845
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch08.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.766117095947266,
+      "max_pelvis_speed_m_s": 1.141979694366455,
+      "min_pelvis_z": -0.20981380343437195
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch09.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.515223979949951,
+      "max_pelvis_speed_m_s": 0.4171731472015381,
+      "min_pelvis_z": -0.25835683941841125
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR2_ch10.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.986607074737549,
+      "max_pelvis_speed_m_s": 0.3890705704689026,
+      "min_pelvis_z": -0.16671322286128998
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.65184211730957,
+      "max_pelvis_speed_m_s": 1.5564225912094116,
+      "min_pelvis_z": -0.3552400767803192
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.037537574768066,
+      "max_pelvis_speed_m_s": 0.9650323390960693,
+      "min_pelvis_z": -0.40908384323120117
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.955999374389648,
+      "max_pelvis_speed_m_s": 1.4881919622421265,
+      "min_pelvis_z": -0.16411517560482025
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sBM_cAll_d30_mKR4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.174407958984375,
+      "max_pelvis_speed_m_s": 1.1899254322052002,
+      "min_pelvis_z": -0.19727955758571625
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sFM_cAll_d28_mKR2_ch03.pkl",
+      "frames": 1151,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 30.60622787475586,
+      "max_pelvis_speed_m_s": 2.383023738861084,
+      "min_pelvis_z": -1.02781081199646
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sFM_cAll_d29_mKR2_ch10.pkl",
+      "frames": 1151,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 23.126951217651367,
+      "max_pelvis_speed_m_s": 2.524672746658325,
+      "min_pelvis_z": -0.5122436285018921
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gKR_sFM_cAll_d30_mKR2_ch17.pkl",
+      "frames": 1151,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 29.65267562866211,
+      "max_pelvis_speed_m_s": 1.7423454523086548,
+      "min_pelvis_z": -0.3721740245819092
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d16_mLH0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.418432235717773,
+      "max_pelvis_speed_m_s": 1.5418622493743896,
+      "min_pelvis_z": -1.0093371868133545
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d16_mLH0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.249645709991455,
+      "max_pelvis_speed_m_s": 1.334159016609192,
+      "min_pelvis_z": -0.7846359014511108
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d16_mLH1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.470608711242676,
+      "max_pelvis_speed_m_s": 1.98722505569458,
+      "min_pelvis_z": -0.8368626236915588
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d16_mLH1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.747452735900879,
+      "max_pelvis_speed_m_s": 2.015599250793457,
+      "min_pelvis_z": -1.1619970798492432
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d16_mLH2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.188006401062012,
+      "max_pelvis_speed_m_s": 2.022322654724121,
+      "min_pelvis_z": -0.9545969367027283
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d16_mLH2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.301828384399414,
+      "max_pelvis_speed_m_s": 1.6732494831085205,
+      "min_pelvis_z": -1.1735341548919678
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d16_mLH3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.16251564025879,
+      "max_pelvis_speed_m_s": 2.07259464263916,
+      "min_pelvis_z": -0.9631326794624329
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d16_mLH3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.60582160949707,
+      "max_pelvis_speed_m_s": 2.875836133956909,
+      "min_pelvis_z": -1.1330386400222778
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.689955711364746,
+      "max_pelvis_speed_m_s": 1.4710315465927124,
+      "min_pelvis_z": -0.6059072613716125
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.390997886657715,
+      "max_pelvis_speed_m_s": 1.1300938129425049,
+      "min_pelvis_z": -0.9792749285697937
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.762189865112305,
+      "max_pelvis_speed_m_s": 1.8794300556182861,
+      "min_pelvis_z": -0.43271079659461975
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.725650787353516,
+      "max_pelvis_speed_m_s": 2.1698386669158936,
+      "min_pelvis_z": -0.5772891640663147
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.431674003601074,
+      "max_pelvis_speed_m_s": 1.6805459260940552,
+      "min_pelvis_z": -0.4527011513710022
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.737428665161133,
+      "max_pelvis_speed_m_s": 1.4030430316925049,
+      "min_pelvis_z": -0.556876003742218
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch03.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.010887145996094,
+      "max_pelvis_speed_m_s": 1.050770878791809,
+      "min_pelvis_z": -0.4494882822036743
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch04.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.212204933166504,
+      "max_pelvis_speed_m_s": 0.6478254795074463,
+      "min_pelvis_z": -0.28867048025131226
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch05.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.17803955078125,
+      "max_pelvis_speed_m_s": 1.2768785953521729,
+      "min_pelvis_z": -0.4254359304904938
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch06.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.388906478881836,
+      "max_pelvis_speed_m_s": 0.9533670544624329,
+      "min_pelvis_z": -0.5811601281166077
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch07.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.570796012878418,
+      "max_pelvis_speed_m_s": 0.712580680847168,
+      "min_pelvis_z": -0.2778833508491516
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch08.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.987988471984863,
+      "max_pelvis_speed_m_s": 0.5076020956039429,
+      "min_pelvis_z": -0.5131521224975586
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch09.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.485393524169922,
+      "max_pelvis_speed_m_s": 0.7754746675491333,
+      "min_pelvis_z": -0.5027198791503906
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH4_ch10.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.948354721069336,
+      "max_pelvis_speed_m_s": 0.26322218775749207,
+      "min_pelvis_z": -0.3349631130695343
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.364675521850586,
+      "max_pelvis_speed_m_s": 1.790385365486145,
+      "min_pelvis_z": -0.5710403919219971
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d17_mLH5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.373522758483887,
+      "max_pelvis_speed_m_s": 1.5539151430130005,
+      "min_pelvis_z": -0.6164034605026245
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.327178955078125,
+      "max_pelvis_speed_m_s": 1.6571415662765503,
+      "min_pelvis_z": -0.6768630743026733
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.213765144348145,
+      "max_pelvis_speed_m_s": 1.2452126741409302,
+      "min_pelvis_z": -0.46026331186294556
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.991802215576172,
+      "max_pelvis_speed_m_s": 1.4645709991455078,
+      "min_pelvis_z": -0.6459911465644836
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.238542556762695,
+      "max_pelvis_speed_m_s": 1.4674557447433472,
+      "min_pelvis_z": -0.43743354082107544
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.509112358093262,
+      "max_pelvis_speed_m_s": 1.5329513549804688,
+      "min_pelvis_z": -0.5779237747192383
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.703285217285156,
+      "max_pelvis_speed_m_s": 1.5637238025665283,
+      "min_pelvis_z": -0.7868130803108215
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch03.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.044567108154297,
+      "max_pelvis_speed_m_s": 0.8764638304710388,
+      "min_pelvis_z": -0.5660114884376526
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch04.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.007637977600098,
+      "max_pelvis_speed_m_s": 0.7545457482337952,
+      "min_pelvis_z": -0.33977657556533813
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch05.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.508811950683594,
+      "max_pelvis_speed_m_s": 1.207283854484558,
+      "min_pelvis_z": -0.419558048248291
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch06.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.580591201782227,
+      "max_pelvis_speed_m_s": 1.0097843408584595,
+      "min_pelvis_z": -0.3137688934803009
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch07.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.189722061157227,
+      "max_pelvis_speed_m_s": 0.9900832176208496,
+      "min_pelvis_z": -0.5751468539237976
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch08.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.44438362121582,
+      "max_pelvis_speed_m_s": 0.7024556994438171,
+      "min_pelvis_z": -0.7410845160484314
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch09.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.335081100463867,
+      "max_pelvis_speed_m_s": 1.0560158491134644,
+      "min_pelvis_z": -0.4090840518474579
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH4_ch10.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.083870887756348,
+      "max_pelvis_speed_m_s": 0.8409733176231384,
+      "min_pelvis_z": -0.2950848639011383
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.92462730407715,
+      "max_pelvis_speed_m_s": 1.8601198196411133,
+      "min_pelvis_z": -0.8325796127319336
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sBM_cAll_d18_mLH5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.49264907836914,
+      "max_pelvis_speed_m_s": 2.035693883895874,
+      "min_pelvis_z": -0.6905903816223145
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sFM_cAll_d16_mLH4_ch05.pkl",
+      "frames": 960,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.91727066040039,
+      "max_pelvis_speed_m_s": 2.08268141746521,
+      "min_pelvis_z": -1.57744562625885
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sFM_cAll_d17_mLH4_ch12.pkl",
+      "frames": 960,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 42.23187255859375,
+      "max_pelvis_speed_m_s": 1.578719139099121,
+      "min_pelvis_z": -0.8231664896011353
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLH_sFM_cAll_d18_mLH4_ch19.pkl",
+      "frames": 960,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_speed_warn",
+          "joint": 13,
+          "frame": 847,
+          "value": 69.47088623046875,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 13,
+          "frame": 848,
+          "value": -71.76692962646484,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 13,
+          "frame": 847,
+          "value": -4237.13427734375,
+          "limit": 2500.0
+        }
+      ],
+      "max_joint_speed_rad_s": 71.76692962646484,
+      "max_pelvis_speed_m_s": 1.7247315645217896,
+      "min_pelvis_z": -1.0778611898422241
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.649559497833252,
+      "max_pelvis_speed_m_s": 0.41747552156448364,
+      "min_pelvis_z": -0.3852062225341797
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.718745231628418,
+      "max_pelvis_speed_m_s": 0.29634618759155273,
+      "min_pelvis_z": -0.3408215045928955
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.709383010864258,
+      "max_pelvis_speed_m_s": 0.3034423291683197,
+      "min_pelvis_z": -0.5628085732460022
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.236579895019531,
+      "max_pelvis_speed_m_s": 0.4587530195713043,
+      "min_pelvis_z": -0.4821607768535614
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.309802532196045,
+      "max_pelvis_speed_m_s": 0.17514510452747345,
+      "min_pelvis_z": -0.3948390483856201
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.491910934448242,
+      "max_pelvis_speed_m_s": 0.24805283546447754,
+      "min_pelvis_z": -0.4721244275569916
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch03.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.360345840454102,
+      "max_pelvis_speed_m_s": 0.17774422466754913,
+      "min_pelvis_z": -0.4440092444419861
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch04.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.052547454833984,
+      "max_pelvis_speed_m_s": 0.13943156599998474,
+      "min_pelvis_z": -0.4873962104320526
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch05.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.75510597229004,
+      "max_pelvis_speed_m_s": 0.5562607645988464,
+      "min_pelvis_z": -0.41340920329093933
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch06.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.19827651977539,
+      "max_pelvis_speed_m_s": 1.0095475912094116,
+      "min_pelvis_z": -0.859462320804596
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch07.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.496400833129883,
+      "max_pelvis_speed_m_s": 1.0909239053726196,
+      "min_pelvis_z": -0.47242236137390137
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch08.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.553144454956055,
+      "max_pelvis_speed_m_s": 1.2094931602478027,
+      "min_pelvis_z": -0.3962503671646118
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch09.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.279258728027344,
+      "max_pelvis_speed_m_s": 1.378959059715271,
+      "min_pelvis_z": -0.45686036348342896
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO2_ch10.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 22.14769172668457,
+      "max_pelvis_speed_m_s": 0.8295121192932129,
+      "min_pelvis_z": -0.3671688735485077
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.839391708374023,
+      "max_pelvis_speed_m_s": 0.34984004497528076,
+      "min_pelvis_z": -0.43371257185935974
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d13_mLO3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.896081924438477,
+      "max_pelvis_speed_m_s": 0.7627094388008118,
+      "min_pelvis_z": -0.43783533573150635
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d14_mLO0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.239202499389648,
+      "max_pelvis_speed_m_s": 1.595042109489441,
+      "min_pelvis_z": -1.1931663751602173
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d14_mLO0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.52691650390625,
+      "max_pelvis_speed_m_s": 0.6556891798973083,
+      "min_pelvis_z": -1.2151260375976562
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d14_mLO1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.835542678833008,
+      "max_pelvis_speed_m_s": 1.602866530418396,
+      "min_pelvis_z": -0.9794780015945435
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d14_mLO1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.70993423461914,
+      "max_pelvis_speed_m_s": 1.1440027952194214,
+      "min_pelvis_z": -0.7341883182525635
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d14_mLO4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.58203125,
+      "max_pelvis_speed_m_s": 0.36629822850227356,
+      "min_pelvis_z": -0.5133352875709534
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d14_mLO4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.025850296020508,
+      "max_pelvis_speed_m_s": 0.6462902426719666,
+      "min_pelvis_z": -0.5554844737052917
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d14_mLO5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.294708251953125,
+      "max_pelvis_speed_m_s": 0.3023659884929657,
+      "min_pelvis_z": -1.1291675567626953
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d14_mLO5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.691824913024902,
+      "max_pelvis_speed_m_s": 0.5071379542350769,
+      "min_pelvis_z": -1.0826817750930786
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.70419979095459,
+      "max_pelvis_speed_m_s": 0.2459339052438736,
+      "min_pelvis_z": -0.42111843824386597
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.4026312828063965,
+      "max_pelvis_speed_m_s": 0.07705141603946686,
+      "min_pelvis_z": -0.28362658619880676
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch03.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.150760650634766,
+      "max_pelvis_speed_m_s": 0.38504543900489807,
+      "min_pelvis_z": -0.30057674646377563
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch04.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.002032279968262,
+      "max_pelvis_speed_m_s": 0.1821313202381134,
+      "min_pelvis_z": -0.36296790838241577
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch05.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.18577766418457,
+      "max_pelvis_speed_m_s": 0.3310188353061676,
+      "min_pelvis_z": -0.3075067400932312
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch06.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.23253631591797,
+      "max_pelvis_speed_m_s": 1.1143962144851685,
+      "min_pelvis_z": -0.7644433975219727
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch07.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.449207305908203,
+      "max_pelvis_speed_m_s": 1.222240924835205,
+      "min_pelvis_z": -0.3710787892341614
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch08.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.4876708984375,
+      "max_pelvis_speed_m_s": 1.4619015455245972,
+      "min_pelvis_z": -0.5124911069869995
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch09.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.713753700256348,
+      "max_pelvis_speed_m_s": 1.3048617839813232,
+      "min_pelvis_z": -0.3688114285469055
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO2_ch10.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.97872543334961,
+      "max_pelvis_speed_m_s": 1.013303518295288,
+      "min_pelvis_z": -0.531802237033844
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.638095378875732,
+      "max_pelvis_speed_m_s": 0.14030838012695312,
+      "min_pelvis_z": -0.649071991443634
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.853034019470215,
+      "max_pelvis_speed_m_s": 0.18699927628040314,
+      "min_pelvis_z": -0.6566761136054993
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.374288082122803,
+      "max_pelvis_speed_m_s": 0.1963595598936081,
+      "min_pelvis_z": -0.35655492544174194
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.930389881134033,
+      "max_pelvis_speed_m_s": 0.0587870292365551,
+      "min_pelvis_z": -0.3018510639667511
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.649946212768555,
+      "max_pelvis_speed_m_s": 0.5383151769638062,
+      "min_pelvis_z": -0.48021847009658813
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sBM_cAll_d15_mLO5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.152746677398682,
+      "max_pelvis_speed_m_s": 0.1734374463558197,
+      "min_pelvis_z": -0.3956187963485718
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sFM_cAll_d13_mLO2_ch03.pkl",
+      "frames": 1151,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 23.541872024536133,
+      "max_pelvis_speed_m_s": 2.059329032897949,
+      "min_pelvis_z": -1.5011930465698242
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sFM_cAll_d14_mLO2_ch10.pkl",
+      "frames": 1151,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 42.36232376098633,
+      "max_pelvis_speed_m_s": 2.583808660507202,
+      "min_pelvis_z": -1.2046440839767456
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gLO_sFM_cAll_d15_mLO2_ch17.pkl",
+      "frames": 1151,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 23.990890502929688,
+      "max_pelvis_speed_m_s": 1.9286646842956543,
+      "min_pelvis_z": -1.491462230682373
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.891765594482422,
+      "max_pelvis_speed_m_s": 1.205901861190796,
+      "min_pelvis_z": -0.5811546444892883
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.134012222290039,
+      "max_pelvis_speed_m_s": 1.585512399673462,
+      "min_pelvis_z": -0.4186534881591797
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.223856925964355,
+      "max_pelvis_speed_m_s": 1.175688624382019,
+      "min_pelvis_z": -0.450473427772522
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.013626098632812,
+      "max_pelvis_speed_m_s": 1.0827951431274414,
+      "min_pelvis_z": -0.81381756067276
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.185079574584961,
+      "max_pelvis_speed_m_s": 1.3431932926177979,
+      "min_pelvis_z": -0.463162899017334
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.858444213867188,
+      "max_pelvis_speed_m_s": 1.5563689470291138,
+      "min_pelvis_z": -0.3146679699420929
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.418109893798828,
+      "max_pelvis_speed_m_s": 1.629859209060669,
+      "min_pelvis_z": -0.45405757427215576
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 26.182466506958008,
+      "max_pelvis_speed_m_s": 1.7257773876190186,
+      "min_pelvis_z": -0.6179470419883728
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch03.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.508821487426758,
+      "max_pelvis_speed_m_s": 1.9102251529693604,
+      "min_pelvis_z": -1.2650480270385742
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch04.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.207858085632324,
+      "max_pelvis_speed_m_s": 1.7162222862243652,
+      "min_pelvis_z": -0.49051645398139954
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch05.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.029760360717773,
+      "max_pelvis_speed_m_s": 1.2932921648025513,
+      "min_pelvis_z": -0.5030924081802368
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch06.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 41.407169342041016,
+      "max_pelvis_speed_m_s": 2.540148973464966,
+      "min_pelvis_z": -0.5909484028816223
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch07.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.438364028930664,
+      "max_pelvis_speed_m_s": 1.4715888500213623,
+      "min_pelvis_z": -0.34888947010040283
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch08.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 23.879377365112305,
+      "max_pelvis_speed_m_s": 1.9499512910842896,
+      "min_pelvis_z": -0.27391207218170166
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch09.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 23.190670013427734,
+      "max_pelvis_speed_m_s": 2.3394298553466797,
+      "min_pelvis_z": -0.41654884815216064
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d22_mMH3_ch10.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 29.734352111816406,
+      "max_pelvis_speed_m_s": 2.002415418624878,
+      "min_pelvis_z": -0.5098601579666138
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d23_mMH0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.974044799804688,
+      "max_pelvis_speed_m_s": 1.2739349603652954,
+      "min_pelvis_z": -0.48742732405662537
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d23_mMH0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.106752395629883,
+      "max_pelvis_speed_m_s": 2.021188497543335,
+      "min_pelvis_z": -0.6862455606460571
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d23_mMH1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.893651962280273,
+      "max_pelvis_speed_m_s": 1.7984646558761597,
+      "min_pelvis_z": -0.615803599357605
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d23_mMH1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.988195419311523,
+      "max_pelvis_speed_m_s": 2.581766366958618,
+      "min_pelvis_z": -0.8266581892967224
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d23_mMH4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.152445793151855,
+      "max_pelvis_speed_m_s": 0.9057497978210449,
+      "min_pelvis_z": -0.4883493483066559
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d23_mMH4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.474410057067871,
+      "max_pelvis_speed_m_s": 1.4942249059677124,
+      "min_pelvis_z": -0.5986870527267456
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d23_mMH5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.425888061523438,
+      "max_pelvis_speed_m_s": 0.8685100078582764,
+      "min_pelvis_z": -0.4837534725666046
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d23_mMH5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.194540023803711,
+      "max_pelvis_speed_m_s": 1.6152732372283936,
+      "min_pelvis_z": -0.8411882519721985
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.381796836853027,
+      "max_pelvis_speed_m_s": 1.259176254272461,
+      "min_pelvis_z": -0.15972460806369781
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.96063995361328,
+      "max_pelvis_speed_m_s": 1.445214867591858,
+      "min_pelvis_z": -0.17880690097808838
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.820235252380371,
+      "max_pelvis_speed_m_s": 1.0397162437438965,
+      "min_pelvis_z": -0.31010839343070984
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.14068603515625,
+      "max_pelvis_speed_m_s": 1.205359935760498,
+      "min_pelvis_z": -0.3213568925857544
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch03.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.262064933776855,
+      "max_pelvis_speed_m_s": 0.9386804103851318,
+      "min_pelvis_z": -0.6078789830207825
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch04.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.7415189743042,
+      "max_pelvis_speed_m_s": 1.1622810363769531,
+      "min_pelvis_z": -0.10099891573190689
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch05.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.659769058227539,
+      "max_pelvis_speed_m_s": 1.026403784751892,
+      "min_pelvis_z": -0.16939835250377655
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch06.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.13241958618164,
+      "max_pelvis_speed_m_s": 1.5395675897598267,
+      "min_pelvis_z": -0.11740685999393463
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch07.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.457481384277344,
+      "max_pelvis_speed_m_s": 1.0509430170059204,
+      "min_pelvis_z": -0.5164377689361572
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch08.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.670382499694824,
+      "max_pelvis_speed_m_s": 1.3134685754776,
+      "min_pelvis_z": -0.328612357378006
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch09.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.353943824768066,
+      "max_pelvis_speed_m_s": 1.6996921300888062,
+      "min_pelvis_z": -0.10798101872205734
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH3_ch10.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.474745750427246,
+      "max_pelvis_speed_m_s": 1.3479318618774414,
+      "min_pelvis_z": -0.07268290221691132
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.913000106811523,
+      "max_pelvis_speed_m_s": 1.3156156539916992,
+      "min_pelvis_z": -0.17426781356334686
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.683034896850586,
+      "max_pelvis_speed_m_s": 1.4049925804138184,
+      "min_pelvis_z": -0.27639859914779663
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.75259780883789,
+      "max_pelvis_speed_m_s": 1.4008969068527222,
+      "min_pelvis_z": -0.4179616868495941
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sBM_cAll_d24_mMH5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 29.041791915893555,
+      "max_pelvis_speed_m_s": 1.8608037233352661,
+      "min_pelvis_z": -0.33658963441848755
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sFM_cAll_d22_mMH3_ch04.pkl",
+      "frames": 1047,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 22.036409378051758,
+      "max_pelvis_speed_m_s": 2.1401987075805664,
+      "min_pelvis_z": -1.3570518493652344
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sFM_cAll_d23_mMH3_ch11.pkl",
+      "frames": 1047,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 378,
+          "value": 3.4248600006103516,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 36.6861572265625,
+      "max_pelvis_speed_m_s": 2.0226423740386963,
+      "min_pelvis_z": -1.537830114364624
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gMH_sFM_cAll_d24_mMH3_ch18.pkl",
+      "frames": 1047,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 1014,
+          "value": 3.2402992248535156,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 33.63774490356445,
+      "max_pelvis_speed_m_s": 2.242668390274048,
+      "min_pelvis_z": -0.683610200881958
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 3.402841567993164,
+      "max_pelvis_speed_m_s": 0.4960566759109497,
+      "min_pelvis_z": -0.18336185812950134
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.971041202545166,
+      "max_pelvis_speed_m_s": 0.683568000793457,
+      "min_pelvis_z": -0.035993464291095734
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.490848064422607,
+      "max_pelvis_speed_m_s": 0.46031898260116577,
+      "min_pelvis_z": -0.17054495215415955
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.812985897064209,
+      "max_pelvis_speed_m_s": 0.8427030444145203,
+      "min_pelvis_z": -0.14934208989143372
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch03.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 2.9513416290283203,
+      "max_pelvis_speed_m_s": 0.26849108934402466,
+      "min_pelvis_z": -0.13127554953098297
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch04.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 1.2350713014602661,
+      "max_pelvis_speed_m_s": 0.07311220467090607,
+      "min_pelvis_z": -0.18088862299919128
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch05.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 0.8643301725387573,
+      "max_pelvis_speed_m_s": 0.19077163934707642,
+      "min_pelvis_z": -0.17844687402248383
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch06.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.178979396820068,
+      "max_pelvis_speed_m_s": 0.24093404412269592,
+      "min_pelvis_z": -0.14134572446346283
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch07.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.13420295715332,
+      "max_pelvis_speed_m_s": 0.4893680810928345,
+      "min_pelvis_z": -0.4508553445339203
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch08.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 22.142946243286133,
+      "max_pelvis_speed_m_s": 1.6079505681991577,
+      "min_pelvis_z": -1.0189741849899292
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch09.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 8.940905570983887,
+      "max_pelvis_speed_m_s": 0.6090698838233948,
+      "min_pelvis_z": -0.13024134933948517
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO1_ch10.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.657801151275635,
+      "max_pelvis_speed_m_s": 0.7222679257392883,
+      "min_pelvis_z": -0.6173352003097534
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 2.403256893157959,
+      "max_pelvis_speed_m_s": 0.5072909593582153,
+      "min_pelvis_z": -0.1439608782529831
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.5272698402404785,
+      "max_pelvis_speed_m_s": 0.8289164900779724,
+      "min_pelvis_z": -0.07715005427598953
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.003886699676514,
+      "max_pelvis_speed_m_s": 0.716726541519165,
+      "min_pelvis_z": -0.10648252815008163
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d10_mPO3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.334541320800781,
+      "max_pelvis_speed_m_s": 1.1270354986190796,
+      "min_pelvis_z": -0.09193967282772064
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 2.3047165870666504,
+      "max_pelvis_speed_m_s": 0.47929880023002625,
+      "min_pelvis_z": -0.1588383913040161
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.089485168457031,
+      "max_pelvis_speed_m_s": 0.7124853134155273,
+      "min_pelvis_z": -0.13106803596019745
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.014502048492432,
+      "max_pelvis_speed_m_s": 0.7226919531822205,
+      "min_pelvis_z": -0.3142004609107971
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.959840774536133,
+      "max_pelvis_speed_m_s": 1.143142580986023,
+      "min_pelvis_z": -0.22436325252056122
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch03.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.735346794128418,
+      "max_pelvis_speed_m_s": 0.6557489633560181,
+      "min_pelvis_z": -0.13279759883880615
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch04.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 7.173935890197754,
+      "max_pelvis_speed_m_s": 0.27674034237861633,
+      "min_pelvis_z": -0.20407569408416748
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch05.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.509061813354492,
+      "max_pelvis_speed_m_s": 0.7670754790306091,
+      "min_pelvis_z": -0.19894389808177948
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch06.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 111,
+          "value": 3.2478859424591064,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 112,
+          "value": 3.2635931968688965,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 113,
+          "value": 3.2741830348968506,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 251,
+          "value": 3.243149995803833,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 252,
+          "value": 3.267329692840576,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 253,
+          "value": 3.29189133644104,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 254,
+          "value": 3.3028573989868164,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 255,
+          "value": 3.3027219772338867,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 256,
+          "value": 3.300053119659424,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 257,
+          "value": 3.2867331504821777,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 10.835846900939941,
+      "max_pelvis_speed_m_s": 0.43444350361824036,
+      "min_pelvis_z": -0.13842050731182098
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch07.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.128034591674805,
+      "max_pelvis_speed_m_s": 0.6973358392715454,
+      "min_pelvis_z": -0.2934533655643463
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch08.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.283265113830566,
+      "max_pelvis_speed_m_s": 0.6619234085083008,
+      "min_pelvis_z": -0.6382929086685181
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch09.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.216947555541992,
+      "max_pelvis_speed_m_s": 1.4413325786590576,
+      "min_pelvis_z": -0.1274183839559555
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO1_ch10.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.343135833740234,
+      "max_pelvis_speed_m_s": 1.0022934675216675,
+      "min_pelvis_z": -0.23103632032871246
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.552524566650391,
+      "max_pelvis_speed_m_s": 0.6307049989700317,
+      "min_pelvis_z": -0.09544464200735092
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.831723690032959,
+      "max_pelvis_speed_m_s": 0.728236734867096,
+      "min_pelvis_z": -0.21592533588409424
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.849358558654785,
+      "max_pelvis_speed_m_s": 0.700925886631012,
+      "min_pelvis_z": -0.16981835663318634
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d11_mPO5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.639185905456543,
+      "max_pelvis_speed_m_s": 0.6852953433990479,
+      "min_pelvis_z": -0.1464649736881256
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d12_mPO2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 4.701653003692627,
+      "max_pelvis_speed_m_s": 0.7096831798553467,
+      "min_pelvis_z": -0.08447721600532532
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d12_mPO2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.050084114074707,
+      "max_pelvis_speed_m_s": 1.2422864437103271,
+      "min_pelvis_z": -0.07780561596155167
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d12_mPO3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 6.551757335662842,
+      "max_pelvis_speed_m_s": 0.7560309767723083,
+      "min_pelvis_z": -0.12901195883750916
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d12_mPO3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 10.870957374572754,
+      "max_pelvis_speed_m_s": 1.1251922845840454,
+      "min_pelvis_z": -0.22580723464488983
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d12_mPO4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 5.319886684417725,
+      "max_pelvis_speed_m_s": 0.8466132283210754,
+      "min_pelvis_z": -0.17636635899543762
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d12_mPO4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.230884552001953,
+      "max_pelvis_speed_m_s": 1.1462490558624268,
+      "min_pelvis_z": -0.2483338862657547
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d12_mPO5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.867615699768066,
+      "max_pelvis_speed_m_s": 0.876990556716919,
+      "min_pelvis_z": -0.19178877770900726
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sBM_cAll_d12_mPO5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.818336486816406,
+      "max_pelvis_speed_m_s": 1.2967818975448608,
+      "min_pelvis_z": -0.18021366000175476
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sFM_cAll_d10_mPO1_ch02.pkl",
+      "frames": 1279,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 22.084575653076172,
+      "max_pelvis_speed_m_s": 1.553171992301941,
+      "min_pelvis_z": -1.2848832607269287
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sFM_cAll_d11_mPO1_ch09.pkl",
+      "frames": 1279,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_speed_warn",
+          "joint": 14,
+          "frame": 651,
+          "value": -79.41808319091797,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_speed_warn",
+          "joint": 0,
+          "frame": 662,
+          "value": -52.19758987426758,
+          "limit": 50.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 14,
+          "frame": 650,
+          "value": -3314.53369140625,
+          "limit": 2500.0
+        },
+        {
+          "kind": "angular_accel",
+          "joint": 14,
+          "frame": 651,
+          "value": 2640.783203125,
+          "limit": 2500.0
+        }
+      ],
+      "max_joint_speed_rad_s": 79.41808319091797,
+      "max_pelvis_speed_m_s": 1.817952036857605,
+      "min_pelvis_z": -0.8586164712905884
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gPO_sFM_cAll_d12_mPO1_ch16.pkl",
+      "frames": 1279,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 24.682891845703125,
+      "max_pelvis_speed_m_s": 1.8031455278396606,
+      "min_pelvis_z": -0.48849228024482727
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.63319206237793,
+      "max_pelvis_speed_m_s": 0.8877671360969543,
+      "min_pelvis_z": -0.057198647409677505
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.745941162109375,
+      "max_pelvis_speed_m_s": 1.2210067510604858,
+      "min_pelvis_z": -0.056433871388435364
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch03.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 32.705413818359375,
+      "max_pelvis_speed_m_s": 1.391831398010254,
+      "min_pelvis_z": -0.1371385157108307
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch04.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "floor",
+          "joint": null,
+          "frame": 0,
+          "value": -2.4486873149871826,
+          "limit": -2.0
+        }
+      ],
+      "max_joint_speed_rad_s": 14.216787338256836,
+      "max_pelvis_speed_m_s": 1.144301414489746,
+      "min_pelvis_z": -2.4486873149871826
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch05.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.748380661010742,
+      "max_pelvis_speed_m_s": 0.7133654952049255,
+      "min_pelvis_z": -0.22122648358345032
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch06.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.262582778930664,
+      "max_pelvis_speed_m_s": 1.0076916217803955,
+      "min_pelvis_z": -0.3208777904510498
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch07.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.030106544494629,
+      "max_pelvis_speed_m_s": 0.687942385673523,
+      "min_pelvis_z": -0.33669739961624146
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch08.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 13.200499534606934,
+      "max_pelvis_speed_m_s": 0.7762691974639893,
+      "min_pelvis_z": -0.2707391679286957
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch09.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.035009384155273,
+      "max_pelvis_speed_m_s": 1.2044166326522827,
+      "min_pelvis_z": -0.4368012547492981
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA0_ch10.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 57,
+          "value": 3.296311855316162,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 198,
+          "value": 3.4334847927093506,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 199,
+          "value": 3.3305563926696777,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 242,
+          "value": 3.568737506866455,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 243,
+          "value": 3.437648296356201,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 244,
+          "value": 3.280128002166748,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 286,
+          "value": 3.271066188812256,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 326,
+          "value": 3.4454188346862793,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 29.899105072021484,
+      "max_pelvis_speed_m_s": 1.708932638168335,
+      "min_pelvis_z": -1.8100290298461914
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA1_ch01.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.1269474029541,
+      "max_pelvis_speed_m_s": 1.0759598016738892,
+      "min_pelvis_z": -0.41209957003593445
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA1_ch02.pkl",
+      "frames": 320,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.132159233093262,
+      "max_pelvis_speed_m_s": 0.9124906659126282,
+      "min_pelvis_z": -0.3482638895511627
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA2_ch01.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 46.205684661865234,
+      "max_pelvis_speed_m_s": 0.8439025282859802,
+      "min_pelvis_z": -0.29431211948394775
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.428340911865234,
+      "max_pelvis_speed_m_s": 0.972027599811554,
+      "min_pelvis_z": -0.27662962675094604
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA3_ch01.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.943910598754883,
+      "max_pelvis_speed_m_s": 1.0211505889892578,
+      "min_pelvis_z": -0.37613576650619507
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d25_mWA3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.177194595336914,
+      "max_pelvis_speed_m_s": 1.0675603151321411,
+      "min_pelvis_z": -0.3722626268863678
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch01.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 39.95204544067383,
+      "max_pelvis_speed_m_s": 0.40936243534088135,
+      "min_pelvis_z": -0.32864686846733093
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch02.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.62107276916504,
+      "max_pelvis_speed_m_s": 1.5463818311691284,
+      "min_pelvis_z": -0.2638642489910126
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch03.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 28.52098846435547,
+      "max_pelvis_speed_m_s": 1.3707247972488403,
+      "min_pelvis_z": -0.36188891530036926
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch04.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 9.826796531677246,
+      "max_pelvis_speed_m_s": 0.5541813373565674,
+      "min_pelvis_z": -1.2437736988067627
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch05.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 149,
+          "value": 3.2697999477386475,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 150,
+          "value": 3.380120038986206,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 151,
+          "value": 3.410782814025879,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 152,
+          "value": 3.431244373321533,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 153,
+          "value": 3.4454944133758545,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 18.87360191345215,
+      "max_pelvis_speed_m_s": 0.9113135933876038,
+      "min_pelvis_z": -1.0105375051498413
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch06.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 236,
+          "value": 3.2947490215301514,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 237,
+          "value": 3.263406276702881,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 276,
+          "value": 3.33276629447937,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 277,
+          "value": 3.3644304275512695,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 278,
+          "value": 3.370738983154297,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 279,
+          "value": 3.3461897373199463,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 280,
+          "value": 3.3108327388763428,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 281,
+          "value": 3.28745436668396,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 282,
+          "value": 3.2658209800720215,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 283,
+          "value": 3.2598469257354736,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 11.417354583740234,
+      "max_pelvis_speed_m_s": 0.8715925216674805,
+      "min_pelvis_z": -0.46289482712745667
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch07.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.510367393493652,
+      "max_pelvis_speed_m_s": 0.4389672577381134,
+      "min_pelvis_z": -0.6237280964851379
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch08.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 24.407238006591797,
+      "max_pelvis_speed_m_s": 0.49742990732192993,
+      "min_pelvis_z": -0.638279378414154
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA0_ch10.pkl",
+      "frames": 360,
+      "fps": 30,
+      "passed": false,
+      "severity": "fail",
+      "violations": [
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 231,
+          "value": 3.4818451404571533,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 232,
+          "value": 3.338131904602051,
+          "limit": 3.24
+        },
+        {
+          "kind": "angle",
+          "joint": 0,
+          "frame": 273,
+          "value": 3.4306564331054688,
+          "limit": 3.24
+        }
+      ],
+      "max_joint_speed_rad_s": 36.680416107177734,
+      "max_pelvis_speed_m_s": 1.3228249549865723,
+      "min_pelvis_z": -0.4281303286552429
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.778099060058594,
+      "max_pelvis_speed_m_s": 0.27895787358283997,
+      "min_pelvis_z": -0.15996696054935455
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA4_ch02.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 16.87534523010254,
+      "max_pelvis_speed_m_s": 0.7291253805160522,
+      "min_pelvis_z": -0.09660390019416809
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA5_ch01.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 34.95537567138672,
+      "max_pelvis_speed_m_s": 0.370821475982666,
+      "min_pelvis_z": -0.40298718214035034
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d26_mWA5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 18.599393844604492,
+      "max_pelvis_speed_m_s": 1.2044072151184082,
+      "min_pelvis_z": -0.2499929517507553
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d27_mWA2_ch02.pkl",
+      "frames": 288,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.316734313964844,
+      "max_pelvis_speed_m_s": 2.391510486602783,
+      "min_pelvis_z": -0.2353600710630417
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d27_mWA3_ch02.pkl",
+      "frames": 262,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 42.69932174682617,
+      "max_pelvis_speed_m_s": 1.7695444822311401,
+      "min_pelvis_z": -0.7077029943466187
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d27_mWA4_ch01.pkl",
+      "frames": 240,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 31.266559600830078,
+      "max_pelvis_speed_m_s": 1.2655543088912964,
+      "min_pelvis_z": -0.4455091059207916
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sBM_cAll_d27_mWA5_ch02.pkl",
+      "frames": 222,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 25.62600326538086,
+      "max_pelvis_speed_m_s": 2.144430160522461,
+      "min_pelvis_z": -0.561679482460022
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sFM_cAll_d25_mWA0_ch01.pkl",
+      "frames": 1439,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 32.12675857543945,
+      "max_pelvis_speed_m_s": 1.5366145372390747,
+      "min_pelvis_z": -0.7614597082138062
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sFM_cAll_d26_mWA0_ch08.pkl",
+      "frames": 1439,
+      "fps": 30,
+      "passed": true,
+      "severity": "warn",
+      "violations": [
+        {
+          "kind": "angular_accel",
+          "joint": 14,
+          "frame": 532,
+          "value": -2674.083740234375,
+          "limit": 2500.0
+        }
+      ],
+      "max_joint_speed_rad_s": 45.3658561706543,
+      "max_pelvis_speed_m_s": 2.0179083347320557,
+      "min_pelvis_z": -0.8421401381492615
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\gWA_sFM_cAll_d27_mWA0_ch15.pkl",
+      "frames": 1439,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.62052345275879,
+      "max_pelvis_speed_m_s": 1.268757939338684,
+      "min_pelvis_z": -0.4663027822971344
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_kira_beach.pkl",
+      "frames": 418,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.363027572631836,
+      "max_pelvis_speed_m_s": 1.7764219045639038,
+      "min_pelvis_z": -0.4670138359069824
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_kira_v1.pkl",
+      "frames": 504,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.693519592285156,
+      "max_pelvis_speed_m_s": 0.0,
+      "min_pelvis_z": -0.824678897857666
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_kira_v2.pkl",
+      "frames": 504,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.693519592285156,
+      "max_pelvis_speed_m_s": 1.4424306154251099,
+      "min_pelvis_z": -0.574838399887085
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel01_s7.pkl",
+      "frames": 432,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.02743148803711,
+      "max_pelvis_speed_m_s": 1.5280256271362305,
+      "min_pelvis_z": -0.18476969003677368
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel02_s13.pkl",
+      "frames": 322,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 45.32646942138672,
+      "max_pelvis_speed_m_s": 1.1381129026412964,
+      "min_pelvis_z": -0.43906107544898987
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel03_s23.pkl",
+      "frames": 946,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.427698135375977,
+      "max_pelvis_speed_m_s": 1.3138467073440552,
+      "min_pelvis_z": -1.2857366800308228
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel04_s31.pkl",
+      "frames": 344,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.96751594543457,
+      "max_pelvis_speed_m_s": 1.6753193140029907,
+      "min_pelvis_z": -0.03116491064429283
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel05_s41.pkl",
+      "frames": 390,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 15.109710693359375,
+      "max_pelvis_speed_m_s": 2.973428726196289,
+      "min_pelvis_z": -0.15775573253631592
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel06_s53.pkl",
+      "frames": 380,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.88424015045166,
+      "max_pelvis_speed_m_s": 0.8214354515075684,
+      "min_pelvis_z": -0.0314083956182003
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel07_s67.pkl",
+      "frames": 426,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 11.895598411560059,
+      "max_pelvis_speed_m_s": 1.6401244401931763,
+      "min_pelvis_z": -0.1338445544242859
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel08_s73.pkl",
+      "frames": 344,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 31.94488525390625,
+      "max_pelvis_speed_m_s": 0.7666143774986267,
+      "min_pelvis_z": -0.1224394291639328
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel09_s83.pkl",
+      "frames": 778,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 20.44890022277832,
+      "max_pelvis_speed_m_s": 1.7465708255767822,
+      "min_pelvis_z": -0.8478931784629822
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\multistyle_reel10_s97.pkl",
+      "frames": 772,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 21.642642974853516,
+      "max_pelvis_speed_m_s": 1.9309767484664917,
+      "min_pelvis_z": -0.36124059557914734
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_1009b82b.pkl",
+      "frames": 504,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.917266845703125,
+      "max_pelvis_speed_m_s": 2.0717968940734863,
+      "min_pelvis_z": -0.3997669219970703
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_326cef1d.pkl",
+      "frames": 504,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.917266845703125,
+      "max_pelvis_speed_m_s": 2.0717968940734863,
+      "min_pelvis_z": -0.3997669219970703
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_3575f432.pkl",
+      "frames": 126,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 14.228805541992188,
+      "max_pelvis_speed_m_s": 2.0717968940734863,
+      "min_pelvis_z": -0.14633995294570923
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_63e61440.pkl",
+      "frames": 126,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 19.690074920654297,
+      "max_pelvis_speed_m_s": 1.0339996814727783,
+      "min_pelvis_z": -0.07955078035593033
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_75434b2d.pkl",
+      "frames": 126,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 17.133216857910156,
+      "max_pelvis_speed_m_s": 2.2819950580596924,
+      "min_pelvis_z": -0.15410465002059937
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_ae2729ed.pkl",
+      "frames": 504,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.917266845703125,
+      "max_pelvis_speed_m_s": 2.0717968940734863,
+      "min_pelvis_z": -0.3997669219970703
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_b521c256.pkl",
+      "frames": 504,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.917266845703125,
+      "max_pelvis_speed_m_s": 2.0717968940734863,
+      "min_pelvis_z": -0.3997669219970703
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_bf586789.pkl",
+      "frames": 126,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.924030303955078,
+      "max_pelvis_speed_m_s": 1.5227991342544556,
+      "min_pelvis_z": -0.19672438502311707
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\service_smoke.pkl",
+      "frames": 504,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 27.917266845703125,
+      "max_pelvis_speed_m_s": 2.0717968940734863,
+      "min_pelvis_z": -0.3997669219970703
+    },
+    {
+      "path": "C:\\dan\\data\\motion_db\\aistpp_full\\motions\\test_e2e_v1.pkl",
+      "frames": 216,
+      "fps": 30,
+      "passed": true,
+      "severity": "ok",
+      "violations": [],
+      "max_joint_speed_rad_s": 12.709588050842285,
+      "max_pelvis_speed_m_s": 1.0829113721847534,
+      "min_pelvis_z": -0.059204936027526855
+    }
+  ],
+  "summary": {
+    "total": 434,
+    "pass": 391,
+    "warn": 11,
+    "fail": 32
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "A4",
+  "char": "sample_a",
+  "action": "sample_a_defeat",
+  "duration_s": 6.0,
+  "fps": 30,
+  "expressions": [
+    [1,   "frown",        0.8,  0],
+    [60,  "dead_inside",  1.0,  20],
+    [120, "dead_inside",  1.0,  0],
+    [165, "frown",        0.9,  18],
+    [180, "frown",        0.9,  0]
+  ],
+  "blink":      {"mean_s": 2.4, "jitter_s": 0.6},
+  "idle_noise": 0.04,
+  "camera":     {"side": "+Y", "lens": 60, "z": 1.30, "dist": 1.4, "track_head": true},
+  "caption":         "POV: it's only Tuesday",
+  "caption_until_s": 5.0,
+  "preview": true
+}

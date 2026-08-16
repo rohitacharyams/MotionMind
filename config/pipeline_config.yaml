@@ -1,0 +1,100 @@
+# Pipeline Configuration
+
+pipeline:
+  device: "auto"  # auto (detects DirectML/CPU), dml, cpu
+
+# Pose Extraction Settings (rtmlib + ONNX Runtime)
+pose_extraction:
+  # Model quality mode: performance (best), balanced, lightweight (fastest)
+  mode: "performance"
+  # Video processing
+  max_frames: -1  # -1 for all frames
+
+# Motion Processing
+motion_processing:
+  # Normalization
+  normalize_to_hip: true
+  scale_to_unit: true
+  reference_joint: "hip_center"  # Joint index 0 for COCO-WholeBody
+  
+  # Temporal Smoothing
+  smoothing:
+    enabled: true
+    method: "savgol"  # savgol, gaussian, moving_average
+    window_size: 7
+    poly_order: 3
+  
+  # Confidence filtering
+  min_confidence: 0.3
+  interpolate_low_confidence: true
+
+# Motion Storage / Embeddings
+motion_storage:
+  db_path: "data/motion_db"
+  embedding_dim: 256
+  # Embedding method
+  method: "temporal_pooling"  # temporal_pooling, lstm_encoder, pca
+  # FAISS index
+  index_type: "IVFFlat"  # Flat, IVFFlat, IVFPQ
+  nlist: 100  # Number of clusters for IVF
+  
+# Avatar / Character Settings
+avatar:
+  # Skeleton
+  skeleton_type: "wholebody_133"  # wholebody_133, body_17, body_26
+  
+  # Character style
+  default_style: "silhouette"  # stick_figure, silhouette, cartoon, neon
+  
+  # Rendering
+  canvas_width: 1920
+  canvas_height: 1080
+  background_color: [0, 0, 0]
+  fps: 30
+  antialiasing: true
+  
+  # Character colors (per style)
+  styles:
+    stick_figure:
+      joint_color: [255, 255, 255]
+      bone_color: [0, 200, 255]
+      joint_radius: 6
+      bone_width: 3
+    silhouette:
+      fill_color: [255, 255, 255]
+      outline_color: [0, 200, 255]
+      outline_width: 2
+    neon:
+      glow_color: [0, 255, 200]
+      core_color: [255, 255, 255]
+      glow_radius: 15
+      bone_width: 4
+    cartoon:
+      skin_color: [255, 220, 185]
+      outline_color: [40, 40, 40]
+      outfit_color: [100, 149, 237]
+      outline_width: 3
+
+# Choreography / Dance Mixing
+choreography:
+  # Transition settings
+  transition_frames: 15
+  transition_method: "slerp"  # linear, slerp, bezier
+  
+  # Beat alignment
+  align_to_beat: false
+  bpm: 120
+  
+  # Style mixing
+  style_weight: 0.5  # 0 = source style, 1 = target style
+
+# Video Output
+video_output:
+  codec: "libx264"
+  quality: 18  # CRF value (lower = better, 0-51)
+  output_dir: "data/output_videos"
+  add_watermark: false
+  # Effects
+  motion_trail: false
+  trail_length: 5
+  trail_opacity_decay: 0.7

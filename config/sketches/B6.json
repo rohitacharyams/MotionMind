@@ -1,0 +1,17 @@
+{
+  "id": "B6",
+  "char": "sample_a",
+  "action": "sample_a_hip_hop_dancing",
+  "duration_s": 2.0,
+  "fps": 30,
+  "expressions": [
+    [1,  "smile", 1.0, 0],
+    [60, "smile", 1.0, 0]
+  ],
+  "blink": {"mean_s": 1.8, "jitter_s": 0.4},
+  "idle_noise": 0.02,
+  "camera": {"side": "+Y", "lens": 35, "z": 1.10, "dist": 2.6, "track_head": true},
+  "caption": "Friday 6:01 PM",
+  "caption_until_s": 2.0,
+  "preview": true
+}

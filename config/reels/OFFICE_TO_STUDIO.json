@@ -1,0 +1,113 @@
+{
+  "id": "OFFICE_TO_STUDIO_v2",
+  "fps": 30,
+  "preview": true,
+  "shots": [
+    {
+      "id": "S1_desk_slump",
+      "char": "alicia",
+      "action": "alicia_sitting_talking",
+      "duration_s": 3.0,
+      "mood": "office",
+      "expressions": [
+        [1,  "frown",       0.8, 0],
+        [25, "dead_inside", 1.0, 12],
+        [70, "dead_inside", 1.0, 0],
+        [85, "frown",       0.8, 8]
+      ],
+      "blink": {"mean_s": 3.0, "jitter_s": 0.8},
+      "idle_noise": 0.02,
+      "camera": {"side": "+Y", "lens": 60, "z": 1.30, "dist": 1.6, "track_head": true},
+      "fingers": {"enabled": true, "curl_deg": 28, "thumb_deg": 14, "axis": "+X"},
+      "caption": "monday. 4:47 pm.",
+      "caption_until_s": 3.0
+    },
+    {
+      "id": "S2_glance_sigh",
+      "char": "alicia",
+      "action": "alicia_looking_around",
+      "duration_s": 2.0,
+      "mood": "office",
+      "expressions": [
+        [1,  "dead_inside", 1.0, 0],
+        [25, "frown",       0.8, 8],
+        [55, "dead_inside", 1.0, 8]
+      ],
+      "blink": {"mean_s": 2.0, "jitter_s": 0.5},
+      "idle_noise": 0.03,
+      "camera": {"side": "+Y", "lens": 70, "z": 1.40, "dist": 1.4, "track_head": true},
+      "fingers": {"enabled": true, "curl_deg": 28},
+      "caption": "5pm hits different",
+      "caption_until_s": 2.0
+    },
+    {
+      "id": "S3_studio_silhouette",
+      "char": "alicia",
+      "action": "alicia_idle",
+      "duration_s": 1.5,
+      "mood": "studio",
+      "expressions": [
+        [1,  "neutral", 1.0, 0],
+        [25, "smirk",   0.8, 8]
+      ],
+      "blink": {"mean_s": 2.5, "jitter_s": 0.5},
+      "idle_noise": 0.02,
+      "camera": {"side": "+Y", "lens": 35, "z": 1.10, "dist": 3.0, "track_head": true},
+      "fingers": {"enabled": true, "curl_deg": 25},
+      "caption": "",
+      "caption_until_s": 0
+    },
+    {
+      "id": "S4_pose_hit",
+      "char": "alicia",
+      "action": "alicia_excited",
+      "duration_s": 2.0,
+      "mood": "studio_neon",
+      "expressions": [
+        [1,  "smirk",  0.7, 0],
+        [20, "smile",  1.0, 8],
+        [50, "shock",  0.8, 6]
+      ],
+      "blink": {"mean_s": 3.0, "jitter_s": 0.4},
+      "idle_noise": 0.03,
+      "camera": {"side": "+Y", "lens": 40, "z": 1.20, "dist": 2.4, "track_head": true},
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "dance.ai studio. 7:00 pm.",
+      "caption_until_s": 2.0
+    },
+    {
+      "id": "S5_full_dance",
+      "char": "alicia",
+      "action": "alicia_hip_hop_dancing",
+      "duration_s": 2.5,
+      "mood": "studio_neon",
+      "expressions": [
+        [1,  "smile", 1.0, 0],
+        [40, "smile", 1.0, 0],
+        [70, "smile", 1.0, 0]
+      ],
+      "blink": {"mean_s": 2.8, "jitter_s": 0.5},
+      "idle_noise": 0.04,
+      "camera": {"side": "+Y", "lens": 35, "z": 1.05, "dist": 2.8, "track_head": true},
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "alive again.",
+      "caption_until_s": 2.5
+    },
+    {
+      "id": "S6_freeze_smile",
+      "char": "alicia",
+      "action": "alicia_idle",
+      "duration_s": 1.0,
+      "mood": "studio_neon",
+      "expressions": [
+        [1, "smile", 1.0, 0]
+      ],
+      "blink": {"mean_s": 5.0, "jitter_s": 0.0},
+      "idle_noise": 0.0,
+      "camera": {"side": "+Y", "lens": 60, "z": 1.42, "dist": 1.5, "track_head": true},
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "dance.ai",
+      "caption_until_s": 1.0
+    }
+  ]
+}

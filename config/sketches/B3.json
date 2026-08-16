@@ -1,0 +1,19 @@
+{
+  "id": "B3",
+  "char": "sample_a",
+  "action": "sample_a_shrugging",
+  "duration_s": 2.5,
+  "fps": 30,
+  "expressions": [
+    [1,  "neutral",     1.0, 0],
+    [20, "dead_inside", 1.0, 10],
+    [55, "dead_inside", 1.0, 0],
+    [75, "forced_smile",1.0, 8]
+  ],
+  "blink": {"mean_s": 2.0, "jitter_s": 0.5},
+  "idle_noise": 0.03,
+  "camera": {"side": "+Y", "lens": 45, "z": 1.40, "dist": 2.0, "track_head": true},
+  "caption": "yeah, idk anymore",
+  "caption_until_s": 2.5,
+  "preview": true
+}

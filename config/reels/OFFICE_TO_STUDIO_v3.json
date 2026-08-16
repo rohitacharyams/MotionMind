@@ -1,0 +1,241 @@
+{
+  "id": "OFFICE_TO_STUDIO_v3",
+  "fps": 30,
+  "preview": true,
+
+  "music": {
+    "path": "c:\\dan\\data\\audio\\music\\sad_lofi.mp3",
+    "volume": 0.45
+  },
+  "vo": [
+    {
+      "path": "c:\\dan\\data\\audio\\vo\\alicia_three_minutes.mp3",
+      "at_s": 4.5,
+      "volume": 1.4
+    },
+    {
+      "path": "c:\\dan\\data\\audio\\vo\\alicia_some_days.mp3",
+      "at_s": 30.0,
+      "volume": 1.4
+    }
+  ],
+
+  "shots": [
+    {
+      "id": "S1_desk_slump",
+      "char": "alicia",
+      "action": "alicia_sitting_talking",
+      "duration_s": 4.0,
+      "mood": "office",
+      "hdri": "office_canteen",
+      "hdri_strength": 0.6,
+      "expressions": [
+        [1,  "frown",       0.8, 0],
+        [30, "dead_inside", 1.0, 12],
+        [80, "frown",       0.8, 8]
+      ],
+      "blink": {"mean_s": 3.0, "jitter_s": 0.8},
+      "idle_noise": 0.02,
+      "camera": {
+        "preset": "portrait",
+        "side": "+Y",
+        "fstop": 2.8,
+        "motion": {"type": "push_in", "from_dist": 1.9, "to_dist": 1.4}
+      },
+      "extras": [
+        {"char": "sample_a", "action": "sample_a_texting",
+         "x": -1.4, "y": -0.6, "rot_z": 18},
+        {"char": "sample_c", "action": "sample_c_talking",
+         "x":  1.5, "y": -0.7, "rot_z": -22}
+      ],
+      "fingers": {"enabled": true, "curl_deg": 28},
+      "caption": "monday. 4:47 pm.",
+      "caption_until_s": 3.5
+    },
+    {
+      "id": "S2_glance_clock",
+      "char": "alicia",
+      "action": "alicia_looking_around",
+      "duration_s": 3.0,
+      "mood": "office",
+      "hdri": "office_canteen",
+      "hdri_strength": 0.55,
+      "expressions": [
+        [1,  "dead_inside", 1.0, 0],
+        [30, "frown",       0.8, 8],
+        [70, "dead_inside", 1.0, 8]
+      ],
+      "blink": {"mean_s": 2.0, "jitter_s": 0.5},
+      "idle_noise": 0.03,
+      "camera": {
+        "preset": "portrait",
+        "fstop": 2.0,
+        "lens": 70, "z": 1.40, "dist": 1.4
+      },
+      "fingers": {"enabled": true, "curl_deg": 28},
+      "caption": "",
+      "caption_until_s": 0
+    },
+    {
+      "id": "S3_5pm_rise",
+      "char": "alicia",
+      "action": "alicia_standing_up",
+      "duration_s": 2.5,
+      "mood": "office",
+      "hdri": "office_canteen",
+      "hdri_strength": 0.8,
+      "expressions": [
+        [1,  "dead_inside", 1.0, 0],
+        [15, "smirk",       0.8, 6],
+        [45, "smile",       1.0, 8]
+      ],
+      "blink": {"mean_s": 3.0, "jitter_s": 0.5},
+      "idle_noise": 0.03,
+      "camera": {
+        "preset": "low_hero",
+        "lens": 35, "z": 0.95, "dist": 2.2,
+        "fstop": 2.8,
+        "motion": {"type": "push_in", "from_dist": 2.6, "to_dist": 2.0}
+      },
+      "extras": [
+        {"char": "sample_a", "action": "sample_a_texting",
+         "x": -1.4, "y": -0.6, "rot_z": 18}
+      ],
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "5:00 PM.",
+      "caption_until_s": 2.5
+    },
+    {
+      "id": "S4_street_walk",
+      "char": "alicia",
+      "action": "alicia_catwalk_walking",
+      "duration_s": 4.0,
+      "mood": "warm",
+      "hdri": "street_noon",
+      "hdri_strength": 1.1,
+      "expressions": [
+        [1,  "smirk", 0.7, 0],
+        [40, "smile", 0.9, 10],
+        [90, "smile", 1.0, 0]
+      ],
+      "blink": {"mean_s": 3.0, "jitter_s": 0.5},
+      "idle_noise": 0.03,
+      "camera": {
+        "preset": "low_hero",
+        "lens": 32, "z": 0.95, "dist": 2.2,
+        "fstop": 2.8,
+        "motion": {"type": "track",
+                   "from": [0.0, 2.4, 0.95],
+                   "to":   [-0.3, 1.8, 1.05]}
+      },
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "dance.ai studios \u2192",
+      "caption_until_s": 3.8
+    },
+    {
+      "id": "S5_studio_arrive",
+      "char": "alicia",
+      "action": "alicia_idle",
+      "duration_s": 2.0,
+      "mood": "studio",
+      "hdri": "studio_neon_hdr",
+      "hdri_strength": 0.7,
+      "expressions": [
+        [1,  "smirk", 0.8, 0],
+        [25, "smile", 1.0, 8]
+      ],
+      "blink": {"mean_s": 2.5, "jitter_s": 0.5},
+      "idle_noise": 0.02,
+      "camera": {
+        "preset": "low_hero",
+        "lens": 28, "z": 0.85, "dist": 2.6,
+        "fstop": 2.8
+      },
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "",
+      "caption_until_s": 0
+    },
+    {
+      "id": "S6_solo_dance",
+      "char": "alicia",
+      "action": "alicia_hip_hop_dancing",
+      "duration_s": 7.0,
+      "mood": "studio_neon",
+      "hdri": "studio_neon_hdr",
+      "hdri_strength": 0.9,
+      "expressions": [
+        [1,   "smile", 1.0, 0],
+        [60,  "smile", 1.0, 0],
+        [120, "smirk", 0.8, 8],
+        [180, "smile", 1.0, 6]
+      ],
+      "blink": {"mean_s": 2.8, "jitter_s": 0.5},
+      "idle_noise": 0.04,
+      "camera": {
+        "preset": "low_hero",
+        "lens": 30, "z": 1.00, "dist": 2.6,
+        "fstop": 2.8,
+        "motion": {"type": "orbit", "deg": 18}
+      },
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "alive again.",
+      "caption_until_s": 6.5
+    },
+    {
+      "id": "S7_group_dance",
+      "char": "alicia",
+      "action": "alicia_hip_hop_dancing",
+      "duration_s": 7.5,
+      "mood": "studio_neon",
+      "hdri": "studio_neon_hdr",
+      "hdri_strength": 1.0,
+      "expressions": [
+        [1,   "smile", 1.0, 0],
+        [80,  "smile", 1.0, 0],
+        [180, "smile", 1.0, 0]
+      ],
+      "blink": {"mean_s": 3.0, "jitter_s": 0.5},
+      "idle_noise": 0.04,
+      "camera": {
+        "preset": "wide_hero",
+        "lens": 24, "z": 1.20, "dist": 4.0,
+        "fstop": 4.0
+      },
+      "extras": [
+        {"char": "sample_a", "action": "sample_a_silly_dancing",
+         "x": -2.0, "y": 0.0, "rot_z": 8},
+        {"char": "sample_c", "action": "sample_c_macarena_dance",
+         "x":  2.0, "y": 0.0, "rot_z": -8},
+        {"char": "sample_g", "action": "sample_g_excited",
+         "x": -1.0, "y": -0.8, "rot_z": 12},
+        {"char": "theobro",  "action": "theobro_hip_hop_dancing",
+         "x":  1.0, "y": -0.8, "rot_z": -12}
+      ],
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "",
+      "caption_until_s": 0
+    },
+    {
+      "id": "S8_freeze_pose",
+      "char": "alicia",
+      "action": "alicia_excited",
+      "duration_s": 2.0,
+      "mood": "studio_neon",
+      "hdri": "studio_neon_hdr",
+      "hdri_strength": 0.9,
+      "expressions": [
+        [1, "smile", 1.0, 0]
+      ],
+      "blink": {"mean_s": 5.0, "jitter_s": 0.0},
+      "idle_noise": 0.0,
+      "camera": {
+        "preset": "portrait",
+        "lens": 50, "z": 1.40, "dist": 1.6,
+        "fstop": 2.0
+      },
+      "fingers": {"enabled": true, "curl_deg": 22},
+      "caption": "dance.ai",
+      "caption_until_s": 2.0
+    }
+  ]
+}

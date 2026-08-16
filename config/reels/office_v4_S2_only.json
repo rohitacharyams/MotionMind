@@ -1,0 +1,74 @@
+{
+    "preview":  true,
+    "id":  "OFFICE_v4_S2_only",
+    "fps":  30,
+    "shots":  [
+                  {
+                      "id":  "S2_clock_glance",
+                      "action":  "alicia_looking_around",
+                      "duration_s":  2.5,
+                      "hero_pos":  [
+                                       0.0,
+                                       -0.45,
+                                       0.0
+                                   ],
+                      "hero_rot":  0,
+                      "expressions":  [
+                                          [
+                                              1,
+                                              "dead_inside",
+                                              0.9,
+                                              0
+                                          ],
+                                          [
+                                              40,
+                                              "neutral",
+                                              0.6,
+                                              12
+                                          ]
+                                      ],
+                      "blink":  {
+                                    "mean_s":  2.5,
+                                    "jitter_s":  0.6
+                                },
+                      "idle_noise":  0.02,
+                      "extras":  [
+                                     {
+                                         "char":  "sample_a",
+                                         "action":  "sample_a_texting",
+                                         "x":  -1.9,
+                                         "y":  -0.45,
+                                         "rot_z":  0
+                                     },
+                                     {
+                                         "char":  "sample_c",
+                                         "action":  "sample_c_talking",
+                                         "x":  1.9,
+                                         "y":  -0.45,
+                                         "rot_z":  0
+                                     }
+                                 ],
+                      "camera":  {
+                                     "type":  "glide",
+                                     "start_xyz":  [
+                                                       -0.2,
+                                                       3.4,
+                                                       1.55
+                                                   ],
+                                     "end_xyz":  [
+                                                     0.2,
+                                                     2.8,
+                                                     1.55
+                                                 ],
+                                     "lens":  35,
+                                     "fstop":  3.2
+                                 },
+                      "fingers":  {
+                                      "enabled":  true,
+                                      "curl_deg":  24
+                                  },
+                      "caption":  "3 minutes.",
+                      "caption_until_s":  2.0
+                  }
+              ]
+}

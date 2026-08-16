@@ -1,0 +1,37 @@
+{
+  "id": "OFFICE_v4_S1_TEST",
+  "fps": 30,
+  "preview": true,
+  "shots": [
+    {
+      "id": "S1_desk_slump",
+      "action": "alicia_sitting_talking",
+      "duration_s": 3.0,
+      "hero_pos": [0.0, -0.45, 0.0],
+      "hero_rot": 0,
+      "expressions": [
+        [1,  "frown",       0.8, 0],
+        [25, "dead_inside", 1.0, 12],
+        [70, "frown",       0.8, 8]
+      ],
+      "blink": {"mean_s": 3.0, "jitter_s": 0.8},
+      "idle_noise": 0.02,
+      "extras": [
+        {"char": "sample_a", "action": "sample_a_texting",
+         "x": -1.9, "y": -0.45, "rot_z": 0},
+        {"char": "sample_c", "action": "sample_c_talking",
+         "x":  1.9, "y": -0.45, "rot_z": 0}
+      ],
+      "camera": {
+        "type": "glide",
+        "start_xyz": [0.4, 4.5, 1.65],
+        "end_xyz":   [-0.4, 4.5, 1.65],
+        "lens": 20,
+        "fstop": 4.0
+      },
+      "fingers": {"enabled": true, "curl_deg": 28},
+      "caption": "monday. 4:47 pm.",
+      "caption_until_s": 2.5
+    }
+  ]
+}

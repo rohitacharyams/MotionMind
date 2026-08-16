@@ -1,0 +1,19 @@
+{
+  "id": "B1",
+  "char": "sample_a",
+  "action": "sample_a_pointing",
+  "duration_s": 2.5,
+  "fps": 30,
+  "expressions": [
+    [1,  "neutral", 1.0, 0],
+    [10, "smile",   0.7, 6],
+    [40, "shock",   1.0, 8],
+    [75, "shock",   1.0, 0]
+  ],
+  "blink": {"mean_s": 1.6, "jitter_s": 0.4},
+  "idle_noise": 0.04,
+  "camera": {"side": "+Y", "lens": 50, "z": 1.45, "dist": 1.6, "track_head": true},
+  "caption": "When you find the bug at 11:55 PM",
+  "caption_until_s": 2.5,
+  "preview": true
+}

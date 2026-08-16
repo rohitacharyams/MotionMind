@@ -1,0 +1,20 @@
+{
+  "id": "OFFICE_SAD",
+  "char": "alicia",
+  "action": "alicia_sitting_talking",
+  "duration_s": 3.0,
+  "fps": 30,
+  "expressions": [
+    [1,  "frown",       0.8, 0],
+    [25, "dead_inside", 1.0, 12],
+    [70, "dead_inside", 1.0, 0],
+    [85, "frown",       0.7, 8]
+  ],
+  "blink": {"mean_s": 3.0, "jitter_s": 0.8},
+  "idle_noise": 0.02,
+  "camera": {"side": "+Y", "lens": 60, "z": 1.30, "dist": 1.6, "track_head": true},
+  "caption": "monday. 4:47 pm.",
+  "caption_until_s": 3.0,
+  "preview": true,
+  "_note": "use cool desaturated lighting if render_sketch supports it; otherwise default"
+}

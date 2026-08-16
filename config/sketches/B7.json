@@ -1,0 +1,19 @@
+{
+  "id": "B7",
+  "char": "alicia",
+  "action": "alicia_surprised",
+  "duration_s": 2.5,
+  "fps": 30,
+  "expressions": [
+    [1,  "neutral", 1.0, 0],
+    [18, "smile",   1.0, 8],
+    [40, "shock",   1.0, 6],
+    [70, "panic",   1.0, 8]
+  ],
+  "blink": {"mean_s": 2.2, "jitter_s": 0.5},
+  "idle_noise": 0.04,
+  "camera": {"side": "+Y", "lens": 55, "z": 1.42, "dist": 1.5, "track_head": true},
+  "caption": "alicia face validation",
+  "caption_until_s": 2.5,
+  "preview": true
+}

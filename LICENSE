@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 Rohit Acharya
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE ON THIRD-PARTY ASSETS AND MODELS
+This MIT license covers ONLY the source code in this repository. It does NOT
+cover, and cannot relicense, third-party models, datasets, or assets that you
+download separately, including but not limited to:
+
+  * SMPL / SMPL-X body models  (https://smpl.is.tue.mpg.de/ — free academic
+    registration; NOT for commercial use without a separate license)
+  * GVHMR, WHAM, HMR2/4D-Humans model weights (see each project's license)
+  * CMU Graphics Lab Motion Capture Database
+  * AIST++ Dance Motion Dataset (Google, CC BY 4.0 with conditions)
+  * Mixamo animations/characters (Adobe — subject to Mixamo terms)
+  * Any VRM avatars you load (subject to each avatar's own license)
+
+You are responsible for obtaining these separately and complying with their
+respective licenses. See ARCHITECTURE.md and docs/ for where to get them.

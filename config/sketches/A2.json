@@ -1,0 +1,21 @@
+{
+  "id": "A2",
+  "char": "theobro",
+  "action": "theobro_bored",
+  "duration_s": 6.0,
+  "fps": 30,
+  "expressions": [
+    [1,   "smile",        1.0,  0],
+    [30,  "smile",        1.0,  0],
+    [105, "dead_inside",  1.0,  18],
+    [135, "dead_inside",  1.0,  0],
+    [165, "forced_smile", 1.0,  12],
+    [180, "forced_smile", 1.0,  0]
+  ],
+  "blink":      {"mean_s": 2.0, "jitter_s": 0.6},
+  "idle_noise": 0.06,
+  "camera":     {"side": "+Y", "lens": 50, "z": 1.55, "dist": 1.7, "track_head": true},
+  "caption":         "When your boss assigns you the task he forgot about",
+  "caption_until_s": 5.2,
+  "preview": true
+}

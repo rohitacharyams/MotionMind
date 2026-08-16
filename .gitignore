@@ -1,0 +1,73 @@
+# ── Secrets ──────────────────────────────────────────────────────────
+.env
+*.env
+!*.env.example
+!.env.example
+*.key
+*.pem
+*_token.txt
+*token*.txt
+
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+.venv311/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── Large models / weights (download separately) ─────────────────────
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.tflite
+*.npz
+checkpoints/
+scripts/video_to_smpl/checkpoints/
+data/models/
+data/smpl/
+data/smplx/
+
+# ── Motion data / caches (regenerate from the pipeline) ──────────────
+*.pkl
+*.h5
+*.hdf5
+*.faiss
+coach/motion_cache/
+coach/motion_cache_cmu/
+coach/motion_cues/
+coach/motion_cues_v33/
+coach/motion_meta/
+coach/generated_movements/
+coach/reports/
+
+# ── 3D assets / media (bring your own) ───────────────────────────────
+*.vrm
+*.fbx
+*.blend
+*.blend1
+*.glb
+!coach/static/stage.glb
+!coach/static/studio_room.glb
+*.mp4
+*.mov
+*.wav
+*.mp3
+data/input_videos/
+blend_exports/
+
+# ── Editor / OS ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

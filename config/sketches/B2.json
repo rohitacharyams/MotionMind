@@ -1,0 +1,20 @@
+{
+  "id": "B2",
+  "char": "sample_a",
+  "action": "sample_a_surprised",
+  "duration_s": 2.5,
+  "fps": 30,
+  "expressions": [
+    [1,  "neutral", 1.0, 0],
+    [12, "smile",   0.5, 4],
+    [25, "shock",   1.0, 4],
+    [55, "panic",   1.0, 8],
+    [75, "panic",   1.0, 0]
+  ],
+  "blink": {"mean_s": 1.4, "jitter_s": 0.4},
+  "idle_noise": 0.05,
+  "camera": {"side": "+Y", "lens": 55, "z": 1.45, "dist": 1.5, "track_head": true},
+  "caption": "wait... I sent that to ALL?",
+  "caption_until_s": 2.5,
+  "preview": true
+}

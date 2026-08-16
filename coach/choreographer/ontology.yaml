@@ -1,0 +1,68 @@
+# Move ontology — coarse, hand-curated knowledge graph that the agent
+# uses to reason about what to teach next. Genres map to AIST++.
+#
+# bpm_range: typical comfortable tempo for the style
+# difficulty: 1 (warmup) .. 5 (advanced)
+# prereqs:  list of move IDs the learner should already feel
+# vibe:     adjectives the LLM can match against natural-language requests
+
+genres:
+  gBR:
+    name: Breaking
+    bpm_range: [85, 110]
+    difficulty: 4
+    vibe: [groundwork, athletic, power, footwork]
+  gHO:
+    name: House
+    bpm_range: [120, 130]
+    difficulty: 3
+    vibe: [footwork, smooth, bounce, jacking]
+  gJB:
+    name: Jazz Ballet
+    bpm_range: [95, 120]
+    difficulty: 3
+    vibe: [graceful, lines, extension, theatrical]
+  gJS:
+    name: Street Jazz
+    bpm_range: [95, 115]
+    difficulty: 3
+    vibe: [stylized, posed, sharp, broadway]
+  gKR:
+    name: Krump
+    bpm_range: [90, 115]
+    difficulty: 4
+    vibe: [aggressive, raw, chest-pop, stomps]
+  gLH:
+    name: LA Hip-Hop
+    bpm_range: [90, 105]
+    difficulty: 2
+    vibe: [groovy, bounce, swag, party]
+  gLO:
+    name: Locking
+    bpm_range: [100, 115]
+    difficulty: 3
+    vibe: [funky, pointing, freezes, playful]
+  gMH:
+    name: Middle Hip-Hop
+    bpm_range: [85, 100]
+    difficulty: 2
+    vibe: [groovy, mid-tempo, foundation]
+  gPO:
+    name: Popping
+    bpm_range: [100, 115]
+    difficulty: 3
+    vibe: [pop, hits, robot, isolation]
+  gWA:
+    name: Waacking
+    bpm_range: [115, 130]
+    difficulty: 3
+    vibe: [arms, posing, attitude, disco]
+
+# Pedagogy hints. Used by the agent prompt.
+pedagogy:
+  warmup_default_bpm: 80
+  slow_practice_speed: 0.5
+  default_drill_counts: 8
+  default_drill_repeats: 4
+  beginner_genres: [gLH, gMH, gWA]
+  advanced_genres: [gBR, gKR]

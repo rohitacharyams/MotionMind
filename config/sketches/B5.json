@@ -1,0 +1,19 @@
+{
+  "id": "B5",
+  "char": "sample_g",
+  "action": "sample_g_bored",
+  "duration_s": 2.5,
+  "fps": 30,
+  "expressions": [
+    [1,  "neutral",      1.0, 0],
+    [15, "dead_inside",  1.0, 8],
+    [50, "dead_inside",  1.0, 0],
+    [70, "forced_smile", 1.0, 8]
+  ],
+  "blink": {"mean_s": 2.2, "jitter_s": 0.6},
+  "idle_noise": 0.05,
+  "camera": {"side": "+Y", "lens": 45, "z": 1.05, "dist": 1.9, "track_head": true},
+  "caption": "boss: good morning team!",
+  "caption_until_s": 2.5,
+  "preview": true
+}

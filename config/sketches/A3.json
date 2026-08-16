@@ -1,0 +1,21 @@
+{
+  "id": "A3",
+  "char": "sample_a",
+  "action": "sample_a_texting",
+  "duration_s": 6.0,
+  "fps": 30,
+  "expressions": [
+    [1,   "neutral",      1.0,  0],
+    [30,  "smile",        0.6,  10],
+    [75,  "shock",        1.0,  6],
+    [115, "shock",        1.0,  0],
+    [140, "panic",        1.0,  10],
+    [180, "panic",        1.0,  0]
+  ],
+  "blink":      {"mean_s": 1.6, "jitter_s": 0.4},
+  "idle_noise": 0.05,
+  "camera":     {"side": "+Y", "lens": 55, "z": 1.42, "dist": 1.5, "track_head": true},
+  "caption":         "When you reply-all to the wrong group",
+  "caption_until_s": 5.0,
+  "preview": true
+}
