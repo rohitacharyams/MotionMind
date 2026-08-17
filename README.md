@@ -27,13 +27,13 @@ can **talk to in real time** (Gemini Live) to learn the movement yourself.
 ## Demo
 
 <p align="center">
-  <img src=".github/demo.gif" alt="MotionMind neon skeleton demo — a wholebody dancer rendered from motion data" width="480">
+  <img src=".github/demo.gif" alt="MotionMind demo — a 3D VRM avatar dancing motion captured from a video" width="430">
 </p>
 
-<p align="center"><em>The no-GPU quick demo (<code>python scripts/demo.py --style neon --trail</code>) —
-a 133-keypoint wholebody dancer with motion trails, rendered straight from motion
-data. Point the same pipeline at a real video to drive a full VRM avatar in the
-browser runtime.</em></p>
+<p align="center"><em>A VRM avatar performing motion captured from an ordinary
+video: <code>video → GVHMR → SMPL → retarget → VRM</code>, played in the browser
+runtime (three.js + three-vrm). The rotations are real, per-bone and deterministic —
+the same clip drives any avatar. <sub>Avatar: VRoid sample model (© pixiv).</sub></em></p>
 
 ```
    video  ──►  extract SMPL  ──►  retarget to avatar  ──►  play in 3D
