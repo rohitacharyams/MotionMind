@@ -27,13 +27,15 @@ can **talk to in real time** (Gemini Live) to learn the movement yourself.
 ## Demo
 
 <p align="center">
-  <img src=".github/demo.gif" alt="MotionMind demo — a 3D VRM avatar dancing motion captured from a video" width="430">
+  <img src=".github/demo.gif" alt="MotionMind demo — a 3D VRM avatar performing an AIST++ hip-hop routine" width="430">
 </p>
 
-<p align="center"><em>A VRM avatar performing motion captured from an ordinary
-video: <code>video → GVHMR → SMPL → retarget → VRM</code>, played in the browser
-runtime (three.js + three-vrm). The rotations are real, per-bone and deterministic —
-the same clip drives any avatar. <sub>Avatar: VRoid sample model (© pixiv).</sub></em></p>
+<p align="center"><em>A VRM avatar performing a hip-hop routine (AIST++ SMPL
+motion) retargeted onto the rig and played in the browser runtime (three.js +
+three-vrm). The rotations are real, per-bone and deterministic — the same clip
+drives any avatar, and the exact same path renders motion extracted from your own
+videos via <code>video → GVHMR → SMPL</code>.
+<br><sub>Avatar: VRoid sample model (© pixiv) · Motion: AIST++ Dance DB (Google, CC BY 4.0).</sub></em></p>
 
 ```
    video  ──►  extract SMPL  ──►  retarget to avatar  ──►  play in 3D
